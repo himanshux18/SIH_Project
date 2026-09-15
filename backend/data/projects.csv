@@ -1,0 +1,802 @@
+project_id,sector,implementing_agency,sanctioned_cost_cr,sanctioned_duration_months,start_date,elapsed_time_pct,fund_utilization_pct,physical_progress_pct,cost_overrun_pct,delay_months,risk_label,project_name
+PRJ0001,Urban Infrastructure,State PWD,99.3,24,2021-03-13,41.0,32.1,26.2,12.6,5.1,Medium,State PWD Urban Infrastructure Phase 0001
+PRJ0002,Irrigation,Indian Railways,19.65,36,2023-08-17,30.1,30.0,27.5,17.2,4.1,Medium,Indian Railways Irrigation Phase 0002
+PRJ0003,Railways,Municipal Corporation,69.71,24,2023-11-05,81.3,76.8,72.0,17.9,4.4,Medium,Municipal Corporation Railways Phase 0003
+PRJ0004,Roads & Highways,Municipal Corporation,52.84,24,2020-11-24,31.8,22.0,17.2,17.4,6.5,Medium,Municipal Corporation Roads & Highways Phase 0004
+PRJ0005,Power,CPWD,14.7,36,2021-02-04,52.9,43.7,31.1,18.7,9.8,Medium,CPWD Power Phase 0005
+PRJ0006,Railways,CPWD,204.58,60,2022-08-02,65.9,54.6,48.2,27.8,18.5,Medium,CPWD Railways Phase 0006
+PRJ0007,Railways,NHAI,79.68,12,2022-12-14,38.2,38.0,36.9,11.1,2.5,Medium,NHAI Railways Phase 0007
+PRJ0008,Power,NTPC,144.97,36,2019-05-14,69.4,44.9,45.0,16.5,12.5,Medium,NTPC Power Phase 0008
+PRJ0009,Irrigation,NTPC,9.66,24,2020-11-20,136.9,128.6,120.0,23.6,4.8,Medium,NTPC Irrigation Phase 0009
+PRJ0010,Power,NHAI,21.58,36,2019-07-19,78.3,53.3,54.0,34.7,9.2,High,NHAI Power Phase 0010
+PRJ0011,Urban Infrastructure,CPWD,75.75,24,2020-01-01,133.7,112.3,105.9,13.3,7.5,Medium,CPWD Urban Infrastructure Phase 0011
+PRJ0012,Roads & Highways,State PWD,146.39,48,2022-12-17,50.5,48.4,43.0,9.3,5.1,Low,State PWD Roads & Highways Phase 0012
+PRJ0013,Roads & Highways,NTPC,221.65,48,2019-01-13,86.2,66.1,51.4,19.7,15.5,Medium,NTPC Roads & Highways Phase 0013
+PRJ0014,Power,CPWD,22.59,18,2021-10-01,74.4,46.6,36.7,29.0,5.7,High,CPWD Power Phase 0014
+PRJ0015,Power,NHAI,33.58,18,2022-02-15,104.9,85.2,73.0,23.2,9.7,High,NHAI Power Phase 0015
+PRJ0016,Power,NTPC,211.65,18,2022-12-16,81.7,81.2,68.2,25.2,4.7,Medium,NTPC Power Phase 0016
+PRJ0017,Roads & Highways,Municipal Corporation,458.16,48,2020-08-09,54.2,48.0,47.2,19.3,4.3,Medium,Municipal Corporation Roads & Highways Phase 0017
+PRJ0018,Roads & Highways,NHAI,40.57,24,2021-07-20,122.1,106.3,101.8,14.9,3.1,Medium,NHAI Roads & Highways Phase 0018
+PRJ0019,Railways,NTPC,27.44,60,2021-07-18,58.7,58.6,60.8,15.9,9.1,Medium,NTPC Railways Phase 0019
+PRJ0020,Roads & Highways,NHAI,64.56,18,2022-07-30,128.7,122.9,119.5,8.2,2.7,Low,NHAI Roads & Highways Phase 0020
+PRJ0021,Urban Infrastructure,CPWD,139.69,24,2023-08-20,137.1,97.8,78.9,36.3,8.5,High,CPWD Urban Infrastructure Phase 0021
+PRJ0022,Irrigation,NHAI,22.57,18,2019-02-02,84.3,56.6,46.9,30.1,8.8,High,NHAI Irrigation Phase 0022
+PRJ0023,Roads & Highways,Municipal Corporation,665.59,18,2021-11-27,137.7,109.4,111.3,28.6,1.9,Medium,Municipal Corporation Roads & Highways Phase 0023
+PRJ0024,Roads & Highways,Municipal Corporation,21.5,36,2023-04-05,55.3,44.2,39.8,12.2,6.8,Medium,Municipal Corporation Roads & Highways Phase 0024
+PRJ0025,Irrigation,CPWD,47.63,60,2023-10-01,123.8,88.9,74.2,33.1,29.9,High,CPWD Irrigation Phase 0025
+PRJ0026,Railways,NHAI,140.06,24,2023-02-28,132.3,83.1,64.3,32.1,18.2,High,NHAI Railways Phase 0026
+PRJ0027,Power,Indian Railways,80.93,36,2022-06-18,69.5,49.9,49.1,24.5,10.1,Medium,Indian Railways Power Phase 0027
+PRJ0028,Irrigation,Municipal Corporation,72.45,24,2021-06-21,117.8,101.3,95.8,24.1,7.2,Medium,Municipal Corporation Irrigation Phase 0028
+PRJ0029,Urban Infrastructure,Indian Railways,65.47,12,2021-04-18,89.7,64.1,58.1,14.9,3.2,Medium,Indian Railways Urban Infrastructure Phase 0029
+PRJ0030,Urban Infrastructure,State PWD,180.88,24,2022-10-17,53.7,45.6,33.3,19.0,4.6,Medium,State PWD Urban Infrastructure Phase 0030
+PRJ0031,Power,Municipal Corporation,12.95,36,2020-03-27,50.3,31.8,27.0,11.1,9.9,Medium,Municipal Corporation Power Phase 0031
+PRJ0032,Railways,NHAI,64.9,24,2020-03-07,40.3,27.1,27.9,23.8,8.8,High,NHAI Railways Phase 0032
+PRJ0033,Irrigation,CPWD,14.85,12,2020-09-07,40.1,25.6,20.7,22.3,2.4,Medium,CPWD Irrigation Phase 0033
+PRJ0034,Irrigation,Indian Railways,182.45,36,2022-02-17,35.0,26.2,24.1,28.2,7.2,Medium,Indian Railways Irrigation Phase 0034
+PRJ0035,Irrigation,State PWD,43.7,24,2023-08-20,93.3,70.5,65.2,24.2,11.3,High,State PWD Irrigation Phase 0035
+PRJ0036,Irrigation,Municipal Corporation,6.38,24,2023-09-27,129.6,87.9,63.7,34.0,14.4,High,Municipal Corporation Irrigation Phase 0036
+PRJ0037,Roads & Highways,Indian Railways,144.53,12,2023-01-06,61.0,39.5,37.3,14.5,4.3,Medium,Indian Railways Roads & Highways Phase 0037
+PRJ0038,Urban Infrastructure,NHAI,76.56,48,2020-05-22,49.5,44.6,43.8,12.9,5.7,Medium,NHAI Urban Infrastructure Phase 0038
+PRJ0039,Railways,NHAI,26.15,60,2023-03-26,77.2,69.5,67.0,26.9,14.4,Medium,NHAI Railways Phase 0039
+PRJ0040,Irrigation,NTPC,55.87,12,2019-04-07,135.4,127.2,104.8,25.3,4.7,High,NTPC Irrigation Phase 0040
+PRJ0041,Urban Infrastructure,NTPC,21.36,12,2021-12-20,90.9,62.3,64.2,17.0,2.9,Medium,NTPC Urban Infrastructure Phase 0041
+PRJ0042,Irrigation,Indian Railways,71.83,60,2023-11-28,36.1,32.3,28.8,23.7,11.0,Medium,Indian Railways Irrigation Phase 0042
+PRJ0043,Roads & Highways,State PWD,41.09,18,2020-12-14,128.1,84.4,74.2,28.2,9.4,High,State PWD Roads & Highways Phase 0043
+PRJ0044,Irrigation,NHAI,10.94,48,2020-03-02,129.8,108.6,89.4,25.5,23.7,High,NHAI Irrigation Phase 0044
+PRJ0045,Urban Infrastructure,CPWD,17.79,18,2021-02-21,57.9,44.1,39.7,19.1,5.2,Medium,CPWD Urban Infrastructure Phase 0045
+PRJ0046,Roads & Highways,NHAI,127.13,36,2020-03-03,74.0,58.6,42.7,5.6,12.8,Medium,NHAI Roads & Highways Phase 0046
+PRJ0047,Railways,Municipal Corporation,57.41,18,2019-03-20,131.7,127.4,100.5,28.9,6.1,High,Municipal Corporation Railways Phase 0047
+PRJ0048,Roads & Highways,NHAI,69.33,36,2021-03-29,99.0,82.6,83.8,24.1,5.2,Medium,NHAI Roads & Highways Phase 0048
+PRJ0049,Railways,Municipal Corporation,14.44,18,2020-04-23,69.6,49.0,42.1,33.1,8.8,High,Municipal Corporation Railways Phase 0049
+PRJ0050,Irrigation,State PWD,10.57,60,2023-01-20,134.5,119.7,109.5,26.0,18.5,Medium,State PWD Irrigation Phase 0050
+PRJ0051,Railways,NTPC,199.81,60,2019-09-28,95.4,71.7,74.6,24.8,17.9,Medium,NTPC Railways Phase 0051
+PRJ0052,Railways,NHAI,74.19,24,2020-05-07,36.2,34.2,33.7,27.7,4.0,Medium,NHAI Railways Phase 0052
+PRJ0053,Irrigation,Indian Railways,33.28,24,2019-08-21,134.9,113.7,88.7,31.3,13.2,High,Indian Railways Irrigation Phase 0053
+PRJ0054,Urban Infrastructure,Indian Railways,297.53,24,2021-05-07,121.5,87.8,86.6,26.7,10.4,High,Indian Railways Urban Infrastructure Phase 0054
+PRJ0055,Irrigation,State PWD,193.37,60,2022-01-16,137.9,116.2,107.3,30.1,20.1,High,State PWD Irrigation Phase 0055
+PRJ0056,Railways,Municipal Corporation,62.06,24,2021-03-22,130.2,93.6,82.7,36.0,13.1,High,Municipal Corporation Railways Phase 0056
+PRJ0057,Railways,NHAI,8.38,24,2023-10-31,84.2,61.6,56.8,24.7,8.1,Medium,NHAI Railways Phase 0057
+PRJ0058,Roads & Highways,NTPC,50.26,12,2022-02-27,50.0,36.9,37.4,22.4,1.4,Medium,NTPC Roads & Highways Phase 0058
+PRJ0059,Railways,State PWD,30.47,18,2019-06-09,43.3,33.9,26.2,18.9,4.8,Medium,State PWD Railways Phase 0059
+PRJ0060,Irrigation,NTPC,4.43,12,2022-12-09,99.1,62.7,63.0,29.4,3.9,High,NTPC Irrigation Phase 0060
+PRJ0061,Roads & Highways,NTPC,30.46,24,2021-05-22,98.0,73.3,63.1,14.4,9.3,Medium,NTPC Roads & Highways Phase 0061
+PRJ0062,Power,Municipal Corporation,18.42,12,2021-03-16,88.6,61.7,49.0,24.3,5.0,High,Municipal Corporation Power Phase 0062
+PRJ0063,Roads & Highways,NHAI,26.81,12,2023-05-22,95.3,83.1,81.1,6.7,0.7,Low,NHAI Roads & Highways Phase 0063
+PRJ0064,Railways,NHAI,54.4,24,2020-11-12,67.1,64.4,58.8,21.1,2.2,Medium,NHAI Railways Phase 0064
+PRJ0065,Irrigation,NHAI,36.69,18,2020-03-18,47.7,32.2,25.7,21.0,5.2,Medium,NHAI Irrigation Phase 0065
+PRJ0066,Irrigation,Municipal Corporation,21.89,60,2023-06-02,93.4,90.3,63.4,23.9,21.8,High,Municipal Corporation Irrigation Phase 0066
+PRJ0067,Power,CPWD,60.9,24,2020-05-18,114.6,77.4,62.9,32.9,12.9,High,CPWD Power Phase 0067
+PRJ0068,Roads & Highways,Municipal Corporation,2.68,12,2022-01-04,61.7,51.4,38.8,27.7,0.5,Medium,Municipal Corporation Roads & Highways Phase 0068
+PRJ0069,Roads & Highways,CPWD,21.19,12,2023-11-17,65.5,60.5,47.7,10.9,4.0,Medium,CPWD Roads & Highways Phase 0069
+PRJ0070,Power,CPWD,127.59,24,2020-09-19,132.2,123.3,120.0,22.5,4.0,Medium,CPWD Power Phase 0070
+PRJ0071,Roads & Highways,Indian Railways,93.4,48,2019-09-09,117.5,80.0,60.6,32.0,25.1,High,Indian Railways Roads & Highways Phase 0071
+PRJ0072,Power,CPWD,34.36,24,2020-10-07,126.5,95.8,94.4,13.5,7.2,Medium,CPWD Power Phase 0072
+PRJ0073,Power,State PWD,173.6,24,2020-02-22,129.0,97.2,86.5,24.9,11.0,High,State PWD Power Phase 0073
+PRJ0074,Power,CPWD,127.48,60,2022-02-03,66.8,43.8,42.9,26.7,21.2,High,CPWD Power Phase 0074
+PRJ0075,Power,Municipal Corporation,158.71,12,2020-01-04,108.5,86.6,83.5,28.0,3.8,Medium,Municipal Corporation Power Phase 0075
+PRJ0076,Urban Infrastructure,State PWD,19.26,12,2020-12-16,117.7,77.7,60.6,29.5,7.8,High,State PWD Urban Infrastructure Phase 0076
+PRJ0077,Power,NTPC,356.66,24,2023-01-28,135.5,99.9,77.9,39.1,11.1,High,NTPC Power Phase 0077
+PRJ0078,Power,Municipal Corporation,28.06,60,2019-09-08,41.1,28.9,27.5,14.6,13.1,Medium,Municipal Corporation Power Phase 0078
+PRJ0079,Urban Infrastructure,State PWD,69.31,18,2021-11-03,96.7,74.5,71.3,20.0,3.4,Medium,State PWD Urban Infrastructure Phase 0079
+PRJ0080,Irrigation,Indian Railways,47.54,48,2019-08-13,131.3,124.5,109.7,13.9,16.0,Medium,Indian Railways Irrigation Phase 0080
+PRJ0081,Roads & Highways,State PWD,177.34,12,2020-08-23,73.8,60.1,61.5,11.7,0.0,Low,State PWD Roads & Highways Phase 0081
+PRJ0082,Railways,NTPC,13.14,24,2020-02-09,79.8,52.4,39.9,14.8,10.6,Medium,NTPC Railways Phase 0082
+PRJ0083,Roads & Highways,NHAI,24.78,18,2020-01-18,86.7,85.8,73.9,16.2,4.5,Medium,NHAI Roads & Highways Phase 0083
+PRJ0084,Irrigation,NHAI,66.26,18,2020-07-11,73.7,56.8,55.7,19.6,1.4,Medium,NHAI Irrigation Phase 0084
+PRJ0085,Roads & Highways,State PWD,180.32,24,2020-06-13,108.5,88.0,78.1,17.2,6.3,Medium,State PWD Roads & Highways Phase 0085
+PRJ0086,Power,Municipal Corporation,1.08,18,2023-04-01,134.1,100.5,79.8,23.0,12.3,High,Municipal Corporation Power Phase 0086
+PRJ0087,Urban Infrastructure,Indian Railways,41.16,24,2020-04-01,51.6,41.4,37.6,19.4,5.6,Medium,Indian Railways Urban Infrastructure Phase 0087
+PRJ0088,Power,NHAI,6.9,24,2022-07-21,118.6,118.1,107.6,9.4,3.3,Low,NHAI Power Phase 0088
+PRJ0089,Railways,Indian Railways,8.7,48,2023-01-11,67.6,47.6,39.6,34.0,14.5,High,Indian Railways Railways Phase 0089
+PRJ0090,Irrigation,State PWD,106.34,24,2021-09-20,78.0,56.0,57.8,20.5,7.2,Medium,State PWD Irrigation Phase 0090
+PRJ0091,Railways,CPWD,159.02,36,2021-02-04,32.5,23.0,20.4,24.0,6.0,Medium,CPWD Railways Phase 0091
+PRJ0092,Power,CPWD,123.67,60,2021-08-04,48.9,34.7,24.5,15.4,18.8,Medium,CPWD Power Phase 0092
+PRJ0093,Roads & Highways,State PWD,169.37,18,2019-01-20,45.1,43.3,43.5,14.1,3.7,Medium,State PWD Roads & Highways Phase 0093
+PRJ0094,Roads & Highways,State PWD,307.21,18,2023-07-04,76.1,57.3,50.5,18.8,5.0,Medium,State PWD Roads & Highways Phase 0094
+PRJ0095,Urban Infrastructure,NTPC,27.86,18,2020-10-02,109.1,78.4,70.4,13.2,9.9,High,NTPC Urban Infrastructure Phase 0095
+PRJ0096,Irrigation,NHAI,39.06,18,2021-08-29,47.8,44.8,44.6,15.2,5.9,Medium,NHAI Irrigation Phase 0096
+PRJ0097,Roads & Highways,NHAI,17.28,36,2021-12-12,80.6,50.8,36.9,10.4,16.1,Medium,NHAI Roads & Highways Phase 0097
+PRJ0098,Roads & Highways,State PWD,28.39,36,2022-05-28,87.3,55.4,57.4,19.5,12.6,Medium,State PWD Roads & Highways Phase 0098
+PRJ0099,Roads & Highways,State PWD,136.64,18,2021-05-30,54.3,54.1,55.7,13.0,2.2,Medium,State PWD Roads & Highways Phase 0099
+PRJ0100,Irrigation,NHAI,63.26,18,2019-07-27,76.4,70.1,67.4,19.2,2.3,Medium,NHAI Irrigation Phase 0100
+PRJ0101,Power,Indian Railways,240.48,24,2021-10-06,82.9,79.1,70.1,29.5,1.9,Medium,Indian Railways Power Phase 0101
+PRJ0102,Roads & Highways,Municipal Corporation,13.3,36,2020-07-27,98.8,94.3,86.4,11.8,7.2,Medium,Municipal Corporation Roads & Highways Phase 0102
+PRJ0103,Power,NTPC,30.91,24,2022-02-03,126.1,125.3,120.0,24.2,1.2,Medium,NTPC Power Phase 0103
+PRJ0104,Irrigation,NHAI,7.89,18,2019-07-18,69.0,49.3,39.6,13.8,4.4,Medium,NHAI Irrigation Phase 0104
+PRJ0105,Urban Infrastructure,Municipal Corporation,101.43,60,2023-05-11,96.1,92.4,96.7,4.4,4.1,Low,Municipal Corporation Urban Infrastructure Phase 0105
+PRJ0106,Urban Infrastructure,State PWD,57.96,36,2021-12-29,86.4,59.8,45.6,18.3,13.4,Medium,State PWD Urban Infrastructure Phase 0106
+PRJ0107,Power,CPWD,96.24,18,2021-07-21,95.7,77.5,61.3,31.5,4.1,Medium,CPWD Power Phase 0107
+PRJ0108,Roads & Highways,NTPC,1779.54,48,2020-02-08,54.6,44.5,40.4,22.4,8.4,Medium,NTPC Roads & Highways Phase 0108
+PRJ0109,Roads & Highways,NTPC,44.74,12,2023-03-14,33.9,24.8,25.4,2.2,0.1,Low,NTPC Roads & Highways Phase 0109
+PRJ0110,Urban Infrastructure,CPWD,159.55,18,2022-07-26,84.5,53.5,41.5,21.4,7.8,High,CPWD Urban Infrastructure Phase 0110
+PRJ0111,Roads & Highways,Indian Railways,1.19,24,2023-01-24,68.3,59.5,53.4,7.4,5.1,Medium,Indian Railways Roads & Highways Phase 0111
+PRJ0112,Power,Municipal Corporation,36.77,48,2023-04-11,107.9,100.9,95.2,23.9,12.2,Medium,Municipal Corporation Power Phase 0112
+PRJ0113,Urban Infrastructure,State PWD,36.33,36,2019-10-17,120.0,111.9,98.2,12.0,9.1,Medium,State PWD Urban Infrastructure Phase 0113
+PRJ0114,Roads & Highways,Indian Railways,57.46,36,2021-08-29,115.8,74.4,71.9,22.8,14.7,High,Indian Railways Roads & Highways Phase 0114
+PRJ0115,Urban Infrastructure,Municipal Corporation,100.78,36,2019-11-09,114.8,112.4,85.2,15.9,12.2,Medium,Municipal Corporation Urban Infrastructure Phase 0115
+PRJ0116,Roads & Highways,CPWD,159.91,36,2019-03-24,125.9,124.5,120.0,9.9,4.3,Low,CPWD Roads & Highways Phase 0116
+PRJ0117,Irrigation,Municipal Corporation,47.27,36,2022-05-14,79.0,56.1,58.8,11.8,7.7,Medium,Municipal Corporation Irrigation Phase 0117
+PRJ0118,Irrigation,State PWD,4.86,18,2023-02-20,115.0,79.6,59.4,20.8,9.2,High,State PWD Irrigation Phase 0118
+PRJ0119,Railways,Municipal Corporation,153.91,18,2023-04-12,108.6,89.6,77.5,33.2,4.9,High,Municipal Corporation Railways Phase 0119
+PRJ0120,Roads & Highways,NHAI,64.69,12,2019-10-04,79.9,64.9,45.8,14.6,5.3,Medium,NHAI Roads & Highways Phase 0120
+PRJ0121,Urban Infrastructure,Indian Railways,215.75,24,2019-07-31,43.8,38.3,32.5,19.6,3.8,Medium,Indian Railways Urban Infrastructure Phase 0121
+PRJ0122,Irrigation,State PWD,11.32,24,2021-02-18,138.3,91.2,78.7,26.4,16.6,High,State PWD Irrigation Phase 0122
+PRJ0123,Power,State PWD,72.52,36,2019-09-20,41.3,34.2,24.2,23.1,6.5,Medium,State PWD Power Phase 0123
+PRJ0124,Roads & Highways,Indian Railways,49.47,36,2023-08-22,38.0,30.9,31.2,3.8,2.3,Low,Indian Railways Roads & Highways Phase 0124
+PRJ0125,Railways,CPWD,150.09,12,2022-04-21,134.7,87.5,88.7,35.3,8.5,High,CPWD Railways Phase 0125
+PRJ0126,Roads & Highways,Indian Railways,250.0,60,2023-09-02,98.8,90.2,82.5,27.7,10.9,Medium,Indian Railways Roads & Highways Phase 0126
+PRJ0127,Urban Infrastructure,CPWD,43.91,36,2021-08-05,110.5,69.9,50.4,32.5,18.8,High,CPWD Urban Infrastructure Phase 0127
+PRJ0128,Irrigation,NTPC,32.06,18,2023-10-23,67.1,45.1,44.1,22.3,8.5,High,NTPC Irrigation Phase 0128
+PRJ0129,Railways,CPWD,19.56,60,2023-10-21,101.5,69.0,64.8,31.4,24.8,High,CPWD Railways Phase 0129
+PRJ0130,Irrigation,Indian Railways,8.71,36,2021-02-04,68.1,50.9,53.3,12.1,11.3,Medium,Indian Railways Irrigation Phase 0130
+PRJ0131,Irrigation,Indian Railways,178.85,60,2021-01-29,60.5,50.6,51.6,21.6,11.8,Medium,Indian Railways Irrigation Phase 0131
+PRJ0132,Irrigation,NHAI,13.75,12,2022-07-12,130.0,87.3,68.4,31.5,9.0,High,NHAI Irrigation Phase 0132
+PRJ0133,Urban Infrastructure,State PWD,127.6,24,2021-12-03,48.0,36.3,37.7,0.9,4.9,Low,State PWD Urban Infrastructure Phase 0133
+PRJ0134,Roads & Highways,Municipal Corporation,13.87,12,2023-10-12,79.9,55.5,40.3,18.6,2.6,Medium,Municipal Corporation Roads & Highways Phase 0134
+PRJ0135,Railways,Municipal Corporation,41.05,18,2022-01-15,107.7,71.8,54.5,38.3,9.5,High,Municipal Corporation Railways Phase 0135
+PRJ0136,Roads & Highways,Municipal Corporation,536.15,24,2023-04-05,91.4,74.6,53.1,22.1,9.6,High,Municipal Corporation Roads & Highways Phase 0136
+PRJ0137,Irrigation,State PWD,360.44,24,2021-05-13,105.5,64.0,52.0,40.4,13.0,High,State PWD Irrigation Phase 0137
+PRJ0138,Power,Indian Railways,84.79,18,2021-08-16,43.8,28.6,21.5,22.6,5.3,Medium,Indian Railways Power Phase 0138
+PRJ0139,Railways,State PWD,74.01,24,2023-04-12,49.5,43.4,43.1,17.8,4.5,Medium,State PWD Railways Phase 0139
+PRJ0140,Railways,Indian Railways,81.57,36,2023-04-14,92.8,56.8,58.3,33.8,16.3,High,Indian Railways Railways Phase 0140
+PRJ0141,Power,CPWD,329.24,12,2022-03-30,139.9,86.7,90.3,28.3,7.5,High,CPWD Power Phase 0141
+PRJ0142,Roads & Highways,State PWD,41.36,24,2022-08-22,126.6,96.5,78.6,26.1,11.4,High,State PWD Roads & Highways Phase 0142
+PRJ0143,Railways,State PWD,39.36,48,2019-08-05,89.9,54.1,44.1,37.1,21.7,High,State PWD Railways Phase 0143
+PRJ0144,Irrigation,NTPC,8.95,24,2021-03-18,56.1,42.1,32.8,22.9,6.1,Medium,NTPC Irrigation Phase 0144
+PRJ0145,Railways,Indian Railways,4.6,48,2021-07-23,82.7,50.5,41.4,25.0,19.8,High,Indian Railways Railways Phase 0145
+PRJ0146,Irrigation,Municipal Corporation,8.94,24,2020-12-10,90.4,81.3,77.2,26.1,5.4,Medium,Municipal Corporation Irrigation Phase 0146
+PRJ0147,Power,State PWD,41.35,60,2019-04-19,132.8,98.3,72.3,32.9,32.8,High,State PWD Power Phase 0147
+PRJ0148,Urban Infrastructure,CPWD,49.0,18,2022-12-16,89.3,64.7,59.1,13.6,7.0,Medium,CPWD Urban Infrastructure Phase 0148
+PRJ0149,Urban Infrastructure,Indian Railways,47.1,36,2019-11-23,87.8,77.6,57.2,17.8,8.9,Medium,Indian Railways Urban Infrastructure Phase 0149
+PRJ0150,Urban Infrastructure,Municipal Corporation,88.63,24,2022-12-21,90.5,55.9,51.5,22.1,10.0,High,Municipal Corporation Urban Infrastructure Phase 0150
+PRJ0151,Irrigation,CPWD,234.58,36,2019-11-11,69.7,67.1,65.0,24.0,2.9,Medium,CPWD Irrigation Phase 0151
+PRJ0152,Urban Infrastructure,Indian Railways,82.48,36,2023-03-13,103.9,95.9,92.9,13.2,4.0,Medium,Indian Railways Urban Infrastructure Phase 0152
+PRJ0153,Irrigation,NHAI,109.63,18,2019-06-22,32.6,27.9,25.5,22.0,0.7,Medium,NHAI Irrigation Phase 0153
+PRJ0154,Irrigation,State PWD,73.3,12,2019-09-13,60.2,50.5,47.3,11.4,0.0,Low,State PWD Irrigation Phase 0154
+PRJ0155,Roads & Highways,NHAI,83.84,18,2023-06-18,115.0,81.2,75.2,25.7,4.3,Medium,NHAI Roads & Highways Phase 0155
+PRJ0156,Roads & Highways,NTPC,310.77,18,2022-01-15,78.7,73.4,68.6,17.7,1.6,Medium,NTPC Roads & Highways Phase 0156
+PRJ0157,Railways,NTPC,6.09,18,2022-04-20,139.4,120.5,107.9,27.9,6.4,High,NTPC Railways Phase 0157
+PRJ0158,Urban Infrastructure,Indian Railways,364.86,60,2019-11-12,105.9,72.1,63.9,27.2,23.0,High,Indian Railways Urban Infrastructure Phase 0158
+PRJ0159,Urban Infrastructure,NHAI,4.18,12,2023-10-20,32.2,28.8,27.9,8.7,2.4,Medium,NHAI Urban Infrastructure Phase 0159
+PRJ0160,Urban Infrastructure,CPWD,15.32,18,2022-11-19,125.1,105.5,92.6,17.0,5.3,Medium,CPWD Urban Infrastructure Phase 0160
+PRJ0161,Irrigation,Indian Railways,10.07,18,2021-07-06,120.8,86.0,88.5,18.3,7.2,Medium,Indian Railways Irrigation Phase 0161
+PRJ0162,Urban Infrastructure,State PWD,255.26,24,2021-06-21,73.7,60.1,55.3,21.6,8.2,Medium,State PWD Urban Infrastructure Phase 0162
+PRJ0163,Power,Municipal Corporation,29.94,12,2019-10-04,54.6,53.7,48.3,22.1,2.0,Medium,Municipal Corporation Power Phase 0163
+PRJ0164,Irrigation,CPWD,119.15,18,2021-12-27,45.3,43.5,43.0,20.4,2.2,Medium,CPWD Irrigation Phase 0164
+PRJ0165,Roads & Highways,State PWD,27.93,12,2019-09-01,135.9,111.4,115.7,12.7,0.0,Low,State PWD Roads & Highways Phase 0165
+PRJ0166,Urban Infrastructure,Indian Railways,26.81,18,2023-03-13,30.0,18.2,16.6,7.3,0.8,Low,Indian Railways Urban Infrastructure Phase 0166
+PRJ0167,Irrigation,NTPC,29.4,24,2022-09-19,98.1,70.6,60.0,23.1,8.9,High,NTPC Irrigation Phase 0167
+PRJ0168,Urban Infrastructure,NHAI,139.76,24,2023-11-30,119.5,101.1,81.6,24.8,12.4,High,NHAI Urban Infrastructure Phase 0168
+PRJ0169,Railways,State PWD,47.4,18,2020-10-23,75.6,70.3,67.3,26.0,2.6,Medium,State PWD Railways Phase 0169
+PRJ0170,Irrigation,Indian Railways,3.16,36,2019-12-08,98.1,71.5,71.0,16.9,12.6,Medium,Indian Railways Irrigation Phase 0170
+PRJ0171,Irrigation,State PWD,47.72,18,2022-03-08,84.9,60.0,45.1,24.7,8.8,High,State PWD Irrigation Phase 0171
+PRJ0172,Power,NHAI,13.98,36,2023-03-28,73.2,71.9,53.7,21.6,8.3,Medium,NHAI Power Phase 0172
+PRJ0173,Roads & Highways,NHAI,78.08,18,2022-11-07,120.8,96.4,80.5,18.8,4.5,Medium,NHAI Roads & Highways Phase 0173
+PRJ0174,Roads & Highways,Municipal Corporation,40.31,24,2023-05-08,41.6,41.4,35.4,14.3,4.4,Medium,Municipal Corporation Roads & Highways Phase 0174
+PRJ0175,Power,NTPC,22.58,18,2020-09-21,115.2,99.6,76.2,31.7,9.3,High,NTPC Power Phase 0175
+PRJ0176,Railways,CPWD,120.4,12,2021-07-15,128.9,117.7,91.7,28.6,4.9,High,CPWD Railways Phase 0176
+PRJ0177,Roads & Highways,Indian Railways,157.34,18,2019-08-14,82.2,53.1,46.2,19.9,6.3,Medium,Indian Railways Roads & Highways Phase 0177
+PRJ0178,Urban Infrastructure,Indian Railways,135.97,12,2020-08-31,132.1,91.1,75.7,18.1,3.3,Medium,Indian Railways Urban Infrastructure Phase 0178
+PRJ0179,Roads & Highways,Indian Railways,42.8,48,2022-03-08,61.4,56.9,57.0,8.6,5.6,Low,Indian Railways Roads & Highways Phase 0179
+PRJ0180,Irrigation,CPWD,22.31,48,2022-08-04,115.4,99.5,75.9,28.0,20.6,High,CPWD Irrigation Phase 0180
+PRJ0181,Urban Infrastructure,State PWD,30.14,36,2019-06-15,136.2,108.3,81.5,25.8,16.8,High,State PWD Urban Infrastructure Phase 0181
+PRJ0182,Irrigation,State PWD,7.77,36,2022-01-06,41.7,27.5,20.2,26.5,10.5,Medium,State PWD Irrigation Phase 0182
+PRJ0183,Irrigation,Indian Railways,234.98,36,2023-05-06,60.6,41.0,41.4,26.7,7.6,Medium,Indian Railways Irrigation Phase 0183
+PRJ0184,Irrigation,CPWD,178.71,36,2019-12-05,69.1,63.1,56.4,15.5,6.0,Medium,CPWD Irrigation Phase 0184
+PRJ0185,Power,CPWD,22.22,36,2023-05-15,95.2,72.1,60.8,13.6,11.4,Medium,CPWD Power Phase 0185
+PRJ0186,Roads & Highways,State PWD,218.95,12,2021-11-24,82.9,71.0,51.3,28.0,6.7,High,State PWD Roads & Highways Phase 0186
+PRJ0187,Urban Infrastructure,CPWD,865.8,36,2019-02-11,65.4,55.9,42.1,29.1,10.9,Medium,CPWD Urban Infrastructure Phase 0187
+PRJ0188,Railways,CPWD,138.82,18,2023-01-25,87.2,65.4,48.6,26.1,9.0,High,CPWD Railways Phase 0188
+PRJ0189,Urban Infrastructure,NHAI,288.53,60,2023-08-07,100.7,77.4,71.4,26.2,17.7,Medium,NHAI Urban Infrastructure Phase 0189
+PRJ0190,Urban Infrastructure,NTPC,72.81,36,2023-09-07,52.3,43.2,45.1,15.8,3.3,Medium,NTPC Urban Infrastructure Phase 0190
+PRJ0191,Irrigation,CPWD,6.78,60,2020-04-11,77.3,73.3,72.9,18.1,9.6,Medium,CPWD Irrigation Phase 0191
+PRJ0192,Railways,State PWD,30.39,36,2022-02-10,35.5,34.1,34.7,17.4,3.3,Medium,State PWD Railways Phase 0192
+PRJ0193,Urban Infrastructure,NHAI,48.9,18,2020-03-20,129.7,90.8,72.2,24.3,9.1,High,NHAI Urban Infrastructure Phase 0193
+PRJ0194,Irrigation,CPWD,306.41,12,2021-05-27,33.7,21.1,21.4,25.7,0.8,Medium,CPWD Irrigation Phase 0194
+PRJ0195,Roads & Highways,NTPC,122.8,12,2022-04-09,136.0,112.1,115.2,14.2,2.5,Medium,NTPC Roads & Highways Phase 0195
+PRJ0196,Roads & Highways,State PWD,28.09,60,2020-04-06,102.0,69.3,62.2,20.8,22.4,Medium,State PWD Roads & Highways Phase 0196
+PRJ0197,Urban Infrastructure,NHAI,27.99,12,2022-05-15,90.0,89.3,69.6,23.8,4.3,Medium,NHAI Urban Infrastructure Phase 0197
+PRJ0198,Roads & Highways,NHAI,4.43,36,2020-02-12,123.2,95.0,71.2,15.5,18.0,High,NHAI Roads & Highways Phase 0198
+PRJ0199,Railways,Indian Railways,47.68,36,2020-06-07,116.6,75.2,62.0,38.2,17.1,High,Indian Railways Railways Phase 0199
+PRJ0200,Irrigation,Municipal Corporation,52.45,24,2022-09-27,113.0,68.6,51.0,27.7,15.3,High,Municipal Corporation Irrigation Phase 0200
+PRJ0201,Power,State PWD,77.42,36,2019-02-18,37.2,29.2,29.7,18.2,5.7,Medium,State PWD Power Phase 0201
+PRJ0202,Urban Infrastructure,NHAI,1830.64,24,2019-06-18,78.5,53.3,40.8,33.2,7.8,High,NHAI Urban Infrastructure Phase 0202
+PRJ0203,Roads & Highways,Municipal Corporation,19.34,36,2019-12-19,128.7,104.0,89.1,12.7,11.6,Medium,Municipal Corporation Roads & Highways Phase 0203
+PRJ0204,Power,State PWD,68.99,60,2020-05-13,138.2,90.7,69.9,28.7,39.7,High,State PWD Power Phase 0204
+PRJ0205,Urban Infrastructure,CPWD,24.3,48,2022-12-17,85.6,84.4,71.5,15.0,7.2,Medium,CPWD Urban Infrastructure Phase 0205
+PRJ0206,Railways,NTPC,87.46,18,2019-01-23,91.6,74.3,70.7,20.9,6.2,Medium,NTPC Railways Phase 0206
+PRJ0207,Irrigation,NHAI,65.71,36,2020-07-19,81.8,76.0,65.4,28.0,8.6,Medium,NHAI Irrigation Phase 0207
+PRJ0208,Power,Municipal Corporation,4.65,18,2019-11-09,108.3,100.8,74.1,20.8,6.2,Medium,Municipal Corporation Power Phase 0208
+PRJ0209,Roads & Highways,NTPC,322.76,36,2022-01-22,68.8,64.4,55.7,16.1,5.8,Medium,NTPC Roads & Highways Phase 0209
+PRJ0210,Urban Infrastructure,State PWD,63.38,36,2020-08-08,105.5,66.2,50.4,23.0,19.2,High,State PWD Urban Infrastructure Phase 0210
+PRJ0211,Power,Municipal Corporation,37.73,24,2019-05-04,113.9,87.0,84.0,25.4,8.0,Medium,Municipal Corporation Power Phase 0211
+PRJ0212,Roads & Highways,NTPC,75.96,12,2023-06-06,101.6,96.5,67.5,16.1,2.2,Medium,NTPC Roads & Highways Phase 0212
+PRJ0213,Urban Infrastructure,State PWD,5.0,60,2019-07-19,76.5,47.2,45.2,22.1,18.9,Medium,State PWD Urban Infrastructure Phase 0213
+PRJ0214,Roads & Highways,NTPC,86.82,60,2023-01-26,106.9,100.1,104.4,15.4,7.6,Medium,NTPC Roads & Highways Phase 0214
+PRJ0215,Urban Infrastructure,NHAI,112.77,12,2022-06-20,89.5,57.1,44.8,21.5,5.1,High,NHAI Urban Infrastructure Phase 0215
+PRJ0216,Roads & Highways,CPWD,39.11,24,2020-06-19,63.0,56.5,40.5,19.2,8.2,Medium,CPWD Roads & Highways Phase 0216
+PRJ0217,Roads & Highways,State PWD,31.33,24,2020-04-26,116.8,96.9,90.1,19.3,5.3,Medium,State PWD Roads & Highways Phase 0217
+PRJ0218,Urban Infrastructure,NHAI,24.85,36,2021-08-03,33.6,31.8,23.0,10.6,5.9,Medium,NHAI Urban Infrastructure Phase 0218
+PRJ0219,Urban Infrastructure,CPWD,95.81,48,2021-03-09,96.8,82.5,74.8,24.3,10.3,Medium,CPWD Urban Infrastructure Phase 0219
+PRJ0220,Urban Infrastructure,Municipal Corporation,129.17,18,2022-11-17,136.8,96.4,76.7,29.4,9.9,High,Municipal Corporation Urban Infrastructure Phase 0220
+PRJ0221,Roads & Highways,Indian Railways,33.66,12,2019-09-10,60.4,59.8,48.8,0.6,0.0,Low,Indian Railways Roads & Highways Phase 0221
+PRJ0222,Power,State PWD,49.83,24,2021-11-29,89.1,83.9,60.2,24.7,8.5,High,State PWD Power Phase 0222
+PRJ0223,Roads & Highways,Indian Railways,3.96,18,2020-12-15,34.9,24.8,24.5,3.5,3.8,Medium,Indian Railways Roads & Highways Phase 0223
+PRJ0224,Irrigation,NTPC,29.0,48,2021-10-31,33.3,28.9,20.7,23.5,10.1,Medium,NTPC Irrigation Phase 0224
+PRJ0225,Irrigation,NHAI,278.28,48,2022-04-22,58.4,50.8,40.8,22.4,13.2,Medium,NHAI Irrigation Phase 0225
+PRJ0226,Irrigation,NHAI,86.63,36,2022-05-20,42.6,32.1,27.6,17.0,7.9,Medium,NHAI Irrigation Phase 0226
+PRJ0227,Urban Infrastructure,Municipal Corporation,43.57,18,2022-09-11,75.4,64.7,59.9,19.0,3.8,Medium,Municipal Corporation Urban Infrastructure Phase 0227
+PRJ0228,Railways,NTPC,149.15,60,2022-01-07,126.1,112.2,83.3,26.0,28.3,High,NTPC Railways Phase 0228
+PRJ0229,Roads & Highways,NHAI,8.44,24,2021-11-04,34.8,22.6,20.2,8.6,6.0,Medium,NHAI Roads & Highways Phase 0229
+PRJ0230,Roads & Highways,CPWD,21.06,48,2022-05-31,77.3,67.2,53.5,19.4,10.8,Medium,CPWD Roads & Highways Phase 0230
+PRJ0231,Urban Infrastructure,Municipal Corporation,97.6,48,2023-07-08,77.4,56.3,50.9,21.0,15.5,Medium,Municipal Corporation Urban Infrastructure Phase 0231
+PRJ0232,Urban Infrastructure,Municipal Corporation,8.77,36,2020-11-05,48.4,37.3,28.0,13.7,9.6,Medium,Municipal Corporation Urban Infrastructure Phase 0232
+PRJ0233,Urban Infrastructure,NTPC,57.66,36,2020-09-05,37.9,28.9,23.4,14.0,8.1,Medium,NTPC Urban Infrastructure Phase 0233
+PRJ0234,Railways,Municipal Corporation,322.83,24,2021-10-04,41.6,27.7,28.8,22.1,5.6,Medium,Municipal Corporation Railways Phase 0234
+PRJ0235,Railways,NTPC,7.81,18,2019-09-22,83.7,54.6,54.1,18.3,4.4,Medium,NTPC Railways Phase 0235
+PRJ0236,Power,CPWD,11.04,36,2023-01-28,138.2,98.9,102.5,16.5,11.8,Medium,CPWD Power Phase 0236
+PRJ0237,Urban Infrastructure,State PWD,66.8,24,2022-10-03,121.7,94.5,76.1,16.8,9.3,Medium,State PWD Urban Infrastructure Phase 0237
+PRJ0238,Roads & Highways,State PWD,27.58,18,2020-05-01,136.3,112.2,92.2,14.2,7.7,Medium,State PWD Roads & Highways Phase 0238
+PRJ0239,Power,State PWD,43.56,24,2023-11-24,126.8,107.7,96.9,35.0,6.4,High,State PWD Power Phase 0239
+PRJ0240,Irrigation,Municipal Corporation,94.29,48,2022-07-03,129.8,84.7,76.9,22.7,27.4,High,Municipal Corporation Irrigation Phase 0240
+PRJ0241,Urban Infrastructure,CPWD,76.62,12,2022-11-30,60.3,57.4,59.1,9.9,0.8,Low,CPWD Urban Infrastructure Phase 0241
+PRJ0242,Urban Infrastructure,Municipal Corporation,15.03,36,2021-06-04,63.3,50.4,44.5,5.9,10.8,Medium,Municipal Corporation Urban Infrastructure Phase 0242
+PRJ0243,Power,NTPC,42.78,36,2023-05-30,80.2,62.3,56.8,25.1,12.4,Medium,NTPC Power Phase 0243
+PRJ0244,Power,NHAI,83.1,12,2019-01-06,100.4,72.2,56.6,22.1,4.2,Medium,NHAI Power Phase 0244
+PRJ0245,Irrigation,State PWD,144.6,60,2019-02-24,125.9,102.1,94.1,30.8,23.6,High,State PWD Irrigation Phase 0245
+PRJ0246,Roads & Highways,NTPC,93.59,18,2023-09-20,31.0,30.9,29.0,7.7,2.6,Low,NTPC Roads & Highways Phase 0246
+PRJ0247,Power,NHAI,206.48,12,2019-01-11,133.1,123.6,120.0,15.2,3.0,Medium,NHAI Power Phase 0247
+PRJ0248,Roads & Highways,Indian Railways,114.22,12,2021-01-03,74.8,46.8,38.5,19.9,4.0,Medium,Indian Railways Roads & Highways Phase 0248
+PRJ0249,Irrigation,Indian Railways,83.9,12,2023-02-24,56.6,44.8,33.7,27.4,5.0,High,Indian Railways Irrigation Phase 0249
+PRJ0250,Urban Infrastructure,Indian Railways,212.57,18,2022-12-17,132.2,100.8,102.5,20.4,2.5,Medium,Indian Railways Urban Infrastructure Phase 0250
+PRJ0251,Roads & Highways,NHAI,59.55,36,2020-10-06,101.3,65.7,66.5,18.0,7.5,Medium,NHAI Roads & Highways Phase 0251
+PRJ0252,Railways,Municipal Corporation,66.84,36,2019-05-10,105.1,73.2,69.6,30.6,15.5,High,Municipal Corporation Railways Phase 0252
+PRJ0253,Urban Infrastructure,State PWD,70.03,24,2019-10-13,127.0,118.1,112.5,17.2,3.5,Medium,State PWD Urban Infrastructure Phase 0253
+PRJ0254,Roads & Highways,NHAI,10.05,24,2019-03-26,60.4,53.3,38.5,17.8,4.2,Medium,NHAI Roads & Highways Phase 0254
+PRJ0255,Irrigation,Municipal Corporation,40.44,18,2023-02-25,64.5,59.0,59.7,14.1,4.0,Medium,Municipal Corporation Irrigation Phase 0255
+PRJ0256,Urban Infrastructure,NTPC,46.94,12,2022-05-21,84.3,63.7,58.7,20.0,2.1,Medium,NTPC Urban Infrastructure Phase 0256
+PRJ0257,Irrigation,State PWD,60.19,18,2019-07-09,116.0,99.5,71.3,29.4,9.1,High,State PWD Irrigation Phase 0257
+PRJ0258,Urban Infrastructure,NHAI,47.59,24,2019-07-19,99.8,90.6,63.5,18.6,9.1,Medium,NHAI Urban Infrastructure Phase 0258
+PRJ0259,Irrigation,State PWD,324.98,24,2023-04-15,110.4,94.8,92.8,23.8,7.1,Medium,State PWD Irrigation Phase 0259
+PRJ0260,Urban Infrastructure,Indian Railways,45.57,36,2023-10-21,35.7,31.2,27.0,9.1,5.3,Low,Indian Railways Urban Infrastructure Phase 0260
+PRJ0261,Power,NTPC,164.4,36,2021-09-05,41.0,35.9,28.1,24.1,7.7,Medium,NTPC Power Phase 0261
+PRJ0262,Power,NHAI,59.77,36,2020-08-17,129.7,91.6,87.4,33.8,15.1,High,NHAI Power Phase 0262
+PRJ0263,Urban Infrastructure,NHAI,88.44,12,2019-01-31,114.7,105.9,78.6,20.9,5.8,High,NHAI Urban Infrastructure Phase 0263
+PRJ0264,Railways,Municipal Corporation,24.13,36,2021-10-24,92.5,80.0,71.4,25.5,11.8,Medium,Municipal Corporation Railways Phase 0264
+PRJ0265,Power,NHAI,9.9,18,2019-10-02,128.9,114.0,117.2,22.1,2.7,Medium,NHAI Power Phase 0265
+PRJ0266,Urban Infrastructure,Municipal Corporation,771.33,12,2023-09-21,133.7,122.2,120.0,31.1,2.2,Medium,Municipal Corporation Urban Infrastructure Phase 0266
+PRJ0267,Urban Infrastructure,CPWD,13.65,18,2019-09-11,98.5,89.9,81.1,11.5,4.3,Medium,CPWD Urban Infrastructure Phase 0267
+PRJ0268,Urban Infrastructure,Municipal Corporation,36.36,36,2022-12-28,134.2,98.6,94.1,17.2,14.2,Medium,Municipal Corporation Urban Infrastructure Phase 0268
+PRJ0269,Railways,Indian Railways,21.79,12,2023-09-21,88.3,61.5,53.8,37.5,4.0,High,Indian Railways Railways Phase 0269
+PRJ0270,Railways,CPWD,69.9,24,2021-02-18,34.8,23.2,19.9,25.4,6.5,Medium,CPWD Railways Phase 0270
+PRJ0271,Urban Infrastructure,Municipal Corporation,9.41,24,2021-12-04,38.0,32.3,33.7,13.6,3.3,Medium,Municipal Corporation Urban Infrastructure Phase 0271
+PRJ0272,Power,State PWD,28.81,60,2023-09-25,87.4,86.6,83.5,16.1,6.3,Medium,State PWD Power Phase 0272
+PRJ0273,Urban Infrastructure,CPWD,252.58,18,2021-10-14,114.9,91.9,64.7,33.5,6.6,High,CPWD Urban Infrastructure Phase 0273
+PRJ0274,Urban Infrastructure,Indian Railways,106.16,24,2022-12-25,57.9,40.4,34.0,35.6,4.1,Medium,Indian Railways Urban Infrastructure Phase 0274
+PRJ0275,Roads & Highways,NTPC,260.23,60,2023-09-08,93.5,69.4,67.8,16.6,16.3,Medium,NTPC Roads & Highways Phase 0275
+PRJ0276,Power,Indian Railways,9.61,36,2020-03-08,51.1,49.4,36.3,11.2,8.1,Medium,Indian Railways Power Phase 0276
+PRJ0277,Roads & Highways,State PWD,34.89,60,2021-11-12,78.0,64.9,57.2,17.3,12.2,Medium,State PWD Roads & Highways Phase 0277
+PRJ0278,Urban Infrastructure,Indian Railways,156.6,48,2021-01-25,115.8,91.6,80.0,24.1,15.1,Medium,Indian Railways Urban Infrastructure Phase 0278
+PRJ0279,Roads & Highways,NTPC,34.02,36,2020-10-17,62.5,59.5,51.2,11.9,4.3,Low,NTPC Roads & Highways Phase 0279
+PRJ0280,Urban Infrastructure,NTPC,207.41,24,2021-04-13,35.0,25.1,25.7,21.2,0.2,Low,NTPC Urban Infrastructure Phase 0280
+PRJ0281,Roads & Highways,NHAI,26.71,24,2022-07-25,52.1,35.5,25.0,16.0,8.0,Medium,NHAI Roads & Highways Phase 0281
+PRJ0282,Urban Infrastructure,Municipal Corporation,45.66,18,2022-08-10,100.5,77.0,74.4,21.7,5.4,Medium,Municipal Corporation Urban Infrastructure Phase 0282
+PRJ0283,Irrigation,NHAI,21.34,12,2020-08-29,139.9,106.7,82.9,26.1,7.2,High,NHAI Irrigation Phase 0283
+PRJ0284,Roads & Highways,NTPC,306.69,24,2022-09-18,32.3,22.8,20.1,21.0,1.6,Medium,NTPC Roads & Highways Phase 0284
+PRJ0285,Roads & Highways,NHAI,9.51,36,2022-09-28,41.3,33.3,29.2,15.2,6.4,Medium,NHAI Roads & Highways Phase 0285
+PRJ0286,Railways,NTPC,44.63,48,2019-08-08,43.8,41.1,33.8,19.6,9.2,Medium,NTPC Railways Phase 0286
+PRJ0287,Urban Infrastructure,Municipal Corporation,122.87,24,2021-09-15,64.3,51.0,44.7,23.1,6.6,Medium,Municipal Corporation Urban Infrastructure Phase 0287
+PRJ0288,Roads & Highways,NTPC,42.85,36,2019-08-12,117.7,99.6,99.2,14.2,6.0,Medium,NTPC Roads & Highways Phase 0288
+PRJ0289,Irrigation,NTPC,76.48,24,2021-02-12,64.0,50.7,37.6,33.3,8.0,High,NTPC Irrigation Phase 0289
+PRJ0290,Urban Infrastructure,Municipal Corporation,70.31,18,2023-04-18,104.0,95.5,75.3,24.2,8.3,High,Municipal Corporation Urban Infrastructure Phase 0290
+PRJ0291,Power,NTPC,58.95,18,2020-07-06,68.8,58.4,47.7,18.3,4.0,Medium,NTPC Power Phase 0291
+PRJ0292,Power,NHAI,295.04,18,2021-02-17,105.4,77.3,55.6,36.1,8.8,High,NHAI Power Phase 0292
+PRJ0293,Irrigation,Municipal Corporation,186.63,18,2021-01-23,112.6,72.1,57.5,40.7,9.2,High,Municipal Corporation Irrigation Phase 0293
+PRJ0294,Roads & Highways,Indian Railways,8.71,24,2023-10-25,41.3,33.9,35.3,3.0,2.9,Low,Indian Railways Roads & Highways Phase 0294
+PRJ0295,Urban Infrastructure,NHAI,60.7,12,2021-12-25,86.8,77.8,71.7,7.8,5.1,Medium,NHAI Urban Infrastructure Phase 0295
+PRJ0296,Railways,NTPC,93.52,24,2019-11-06,131.8,82.7,70.3,33.2,17.6,High,NTPC Railways Phase 0296
+PRJ0297,Power,Indian Railways,202.13,36,2020-07-17,59.8,50.2,50.4,26.5,7.3,Medium,Indian Railways Power Phase 0297
+PRJ0298,Power,CPWD,79.41,36,2020-11-03,35.6,30.3,25.3,19.5,7.8,Medium,CPWD Power Phase 0298
+PRJ0299,Power,NHAI,120.86,36,2022-08-23,53.6,46.4,40.6,16.2,6.3,Medium,NHAI Power Phase 0299
+PRJ0300,Urban Infrastructure,NTPC,198.06,12,2022-12-23,124.7,115.6,101.7,21.0,0.8,Medium,NTPC Urban Infrastructure Phase 0300
+PRJ0301,Roads & Highways,Indian Railways,19.04,36,2023-01-13,35.5,34.2,24.3,14.4,3.8,Medium,Indian Railways Roads & Highways Phase 0301
+PRJ0302,Railways,NHAI,6.92,36,2019-05-27,134.7,126.0,120.0,14.8,9.1,Medium,NHAI Railways Phase 0302
+PRJ0303,Railways,CPWD,142.03,24,2019-05-04,70.8,68.6,62.0,27.5,2.1,Medium,CPWD Railways Phase 0303
+PRJ0304,Urban Infrastructure,NHAI,74.69,48,2022-04-14,116.6,91.2,83.9,23.8,14.4,Medium,NHAI Urban Infrastructure Phase 0304
+PRJ0305,Railways,Municipal Corporation,15.35,36,2021-01-24,85.0,77.7,70.7,22.5,9.3,Medium,Municipal Corporation Railways Phase 0305
+PRJ0306,Irrigation,NTPC,12.87,24,2023-07-27,41.6,37.7,31.8,12.4,5.8,Medium,NTPC Irrigation Phase 0306
+PRJ0307,Irrigation,State PWD,130.24,48,2022-05-18,42.1,30.2,24.4,24.7,12.3,Medium,State PWD Irrigation Phase 0307
+PRJ0308,Roads & Highways,State PWD,8.8,36,2019-05-18,126.0,117.3,91.0,19.7,13.0,Medium,State PWD Roads & Highways Phase 0308
+PRJ0309,Railways,NHAI,118.91,48,2019-07-04,73.2,60.1,52.7,25.6,14.5,Medium,NHAI Railways Phase 0309
+PRJ0310,Railways,NHAI,38.67,18,2021-04-11,75.6,45.8,36.8,16.9,6.3,Medium,NHAI Railways Phase 0310
+PRJ0311,Urban Infrastructure,State PWD,159.72,24,2019-10-18,39.2,23.8,18.1,23.1,5.3,Medium,State PWD Urban Infrastructure Phase 0311
+PRJ0312,Railways,Municipal Corporation,87.14,24,2019-08-02,53.3,38.6,29.3,21.7,6.3,Medium,Municipal Corporation Railways Phase 0312
+PRJ0313,Urban Infrastructure,NTPC,5.47,24,2021-08-31,106.6,93.9,71.4,26.0,4.5,Medium,NTPC Urban Infrastructure Phase 0313
+PRJ0314,Roads & Highways,Indian Railways,54.8,12,2023-08-29,106.6,85.1,87.4,15.7,2.5,Medium,Indian Railways Roads & Highways Phase 0314
+PRJ0315,Roads & Highways,State PWD,140.37,18,2021-07-03,76.1,46.2,45.2,17.4,5.4,Medium,State PWD Roads & Highways Phase 0315
+PRJ0316,Irrigation,State PWD,23.54,18,2022-07-10,127.0,113.3,107.0,20.3,7.3,High,State PWD Irrigation Phase 0316
+PRJ0317,Roads & Highways,NTPC,35.64,24,2021-07-08,120.3,91.6,79.7,15.5,9.1,Medium,NTPC Roads & Highways Phase 0317
+PRJ0318,Roads & Highways,Indian Railways,43.89,60,2020-01-02,37.4,35.5,29.7,13.3,7.1,Medium,Indian Railways Roads & Highways Phase 0318
+PRJ0319,Urban Infrastructure,Municipal Corporation,28.01,24,2022-12-17,77.7,77.6,69.5,13.7,1.6,Low,Municipal Corporation Urban Infrastructure Phase 0319
+PRJ0320,Power,CPWD,25.6,24,2020-10-27,35.0,25.9,26.5,23.2,3.5,Medium,CPWD Power Phase 0320
+PRJ0321,Roads & Highways,NHAI,73.36,12,2022-10-11,94.2,86.0,82.8,19.9,1.9,Medium,NHAI Roads & Highways Phase 0321
+PRJ0322,Roads & Highways,NTPC,257.63,36,2022-01-21,111.6,74.6,57.3,28.2,18.4,High,NTPC Roads & Highways Phase 0322
+PRJ0323,Roads & Highways,NTPC,274.77,48,2021-09-01,113.4,82.0,69.3,22.7,18.4,High,NTPC Roads & Highways Phase 0323
+PRJ0324,Power,NHAI,285.99,18,2020-01-22,76.7,73.9,64.8,19.2,5.9,Medium,NHAI Power Phase 0324
+PRJ0325,Railways,Indian Railways,49.91,24,2021-08-17,100.0,90.0,70.1,29.2,10.7,High,Indian Railways Railways Phase 0325
+PRJ0326,Irrigation,Indian Railways,61.92,18,2022-03-24,120.6,75.4,73.3,28.3,10.8,High,Indian Railways Irrigation Phase 0326
+PRJ0327,Urban Infrastructure,Indian Railways,19.21,24,2019-02-26,58.6,35.9,36.2,23.1,6.5,Medium,Indian Railways Urban Infrastructure Phase 0327
+PRJ0328,Railways,CPWD,9.76,24,2019-12-28,86.6,77.4,66.0,20.0,7.4,Medium,CPWD Railways Phase 0328
+PRJ0329,Power,NHAI,25.08,12,2023-12-04,65.9,59.3,58.2,18.1,0.5,Low,NHAI Power Phase 0329
+PRJ0330,Urban Infrastructure,NTPC,41.74,24,2022-11-11,92.3,66.9,62.2,21.5,9.5,High,NTPC Urban Infrastructure Phase 0330
+PRJ0331,Urban Infrastructure,NTPC,7.95,24,2019-05-05,100.2,89.5,83.8,6.6,5.2,Medium,NTPC Urban Infrastructure Phase 0331
+PRJ0332,Power,NTPC,16.79,60,2020-09-07,88.0,60.3,63.2,24.7,19.6,Medium,NTPC Power Phase 0332
+PRJ0333,Roads & Highways,CPWD,50.77,36,2022-05-04,71.0,69.4,52.6,10.4,10.3,Medium,CPWD Roads & Highways Phase 0333
+PRJ0334,Roads & Highways,NHAI,54.82,12,2021-09-25,112.3,103.7,87.6,8.6,6.4,High,NHAI Roads & Highways Phase 0334
+PRJ0335,Railways,Municipal Corporation,44.83,24,2022-05-19,130.1,111.3,115.1,16.3,6.2,Medium,Municipal Corporation Railways Phase 0335
+PRJ0336,Roads & Highways,CPWD,158.53,36,2019-05-22,111.5,71.1,64.6,21.0,15.8,High,CPWD Roads & Highways Phase 0336
+PRJ0337,Railways,CPWD,68.53,18,2022-05-28,95.6,76.6,79.8,27.0,3.0,Medium,CPWD Railways Phase 0337
+PRJ0338,Roads & Highways,NTPC,281.81,18,2020-01-25,106.0,89.2,81.8,17.9,3.2,Medium,NTPC Roads & Highways Phase 0338
+PRJ0339,Irrigation,Municipal Corporation,79.63,60,2019-06-03,72.4,45.5,35.2,28.4,24.3,High,Municipal Corporation Irrigation Phase 0339
+PRJ0340,Railways,Municipal Corporation,9.94,24,2021-08-11,138.4,92.2,68.2,38.4,14.7,High,Municipal Corporation Railways Phase 0340
+PRJ0341,Irrigation,CPWD,11.51,18,2023-10-22,48.7,46.7,45.4,10.6,1.8,Low,CPWD Irrigation Phase 0341
+PRJ0342,Power,Municipal Corporation,40.19,36,2019-10-08,82.6,75.4,60.8,21.9,9.9,Medium,Municipal Corporation Power Phase 0342
+PRJ0343,Roads & Highways,Indian Railways,14.81,36,2021-10-30,103.4,94.2,94.3,-1.1,5.2,Low,Indian Railways Roads & Highways Phase 0343
+PRJ0344,Irrigation,NHAI,6.55,36,2023-08-20,31.7,25.7,22.2,22.2,9.7,Medium,NHAI Irrigation Phase 0344
+PRJ0345,Power,Municipal Corporation,155.49,24,2020-08-13,79.9,72.3,53.8,22.8,7.9,Medium,Municipal Corporation Power Phase 0345
+PRJ0346,Roads & Highways,Municipal Corporation,13.73,24,2022-03-06,55.3,45.4,37.7,8.2,5.3,Medium,Municipal Corporation Roads & Highways Phase 0346
+PRJ0347,Urban Infrastructure,State PWD,20.1,18,2023-01-26,61.4,59.6,62.0,6.8,0.0,Low,State PWD Urban Infrastructure Phase 0347
+PRJ0348,Power,Indian Railways,69.59,24,2019-06-06,91.2,85.6,83.8,20.9,2.5,Medium,Indian Railways Power Phase 0348
+PRJ0349,Roads & Highways,CPWD,834.91,24,2022-09-15,98.6,82.8,59.5,44.1,6.9,High,CPWD Roads & Highways Phase 0349
+PRJ0350,Urban Infrastructure,NHAI,27.97,24,2019-12-26,62.3,43.3,44.7,15.7,5.9,Medium,NHAI Urban Infrastructure Phase 0350
+PRJ0351,Power,Indian Railways,87.58,12,2022-10-22,107.3,90.8,87.7,28.5,6.0,High,Indian Railways Power Phase 0351
+PRJ0352,Irrigation,Indian Railways,62.27,24,2023-01-29,48.8,29.9,23.0,24.4,4.4,Medium,Indian Railways Irrigation Phase 0352
+PRJ0353,Urban Infrastructure,NHAI,295.24,12,2022-02-01,60.6,57.1,58.5,15.6,0.0,Low,NHAI Urban Infrastructure Phase 0353
+PRJ0354,Urban Infrastructure,NHAI,117.06,36,2023-07-05,50.8,49.2,46.4,7.2,4.5,Low,NHAI Urban Infrastructure Phase 0354
+PRJ0355,Power,NTPC,447.49,18,2021-09-28,124.2,116.0,118.9,29.6,0.5,Medium,NTPC Power Phase 0355
+PRJ0356,Irrigation,NTPC,17.06,24,2022-10-27,55.8,41.2,29.3,23.4,8.2,Medium,NTPC Irrigation Phase 0356
+PRJ0357,Power,Municipal Corporation,354.05,18,2020-06-16,98.2,82.4,72.3,33.9,6.6,High,Municipal Corporation Power Phase 0357
+PRJ0358,Urban Infrastructure,Indian Railways,41.69,24,2022-05-05,89.7,66.3,56.5,15.8,9.4,Medium,Indian Railways Urban Infrastructure Phase 0358
+PRJ0359,Power,Municipal Corporation,22.15,48,2023-08-11,50.4,37.8,38.7,12.1,10.0,Medium,Municipal Corporation Power Phase 0359
+PRJ0360,Irrigation,NHAI,15.45,60,2019-12-07,30.6,19.1,19.4,12.5,13.4,Medium,NHAI Irrigation Phase 0360
+PRJ0361,Power,NTPC,26.74,60,2022-11-12,80.9,76.5,60.2,19.0,17.3,Medium,NTPC Power Phase 0361
+PRJ0362,Railways,Municipal Corporation,88.91,36,2020-06-15,62.9,40.4,34.5,27.6,12.8,High,Municipal Corporation Railways Phase 0362
+PRJ0363,Irrigation,NHAI,70.05,18,2021-05-24,42.9,37.4,38.6,19.7,3.2,Medium,NHAI Irrigation Phase 0363
+PRJ0364,Roads & Highways,State PWD,26.88,24,2020-12-03,69.1,42.7,33.1,17.7,7.9,Medium,State PWD Roads & Highways Phase 0364
+PRJ0365,Irrigation,Municipal Corporation,58.76,36,2021-01-09,91.7,89.6,65.3,29.2,12.8,High,Municipal Corporation Irrigation Phase 0365
+PRJ0366,Railways,State PWD,24.85,12,2020-10-12,40.1,33.5,26.1,23.0,3.3,Medium,State PWD Railways Phase 0366
+PRJ0367,Urban Infrastructure,NTPC,86.98,12,2019-11-07,92.5,66.4,68.3,28.2,0.3,Medium,NTPC Urban Infrastructure Phase 0367
+PRJ0368,Urban Infrastructure,NHAI,21.19,36,2021-04-04,54.9,46.4,36.6,5.7,9.3,Medium,NHAI Urban Infrastructure Phase 0368
+PRJ0369,Irrigation,NHAI,31.91,12,2021-09-30,47.2,44.0,36.4,21.4,2.6,Medium,NHAI Irrigation Phase 0369
+PRJ0370,Irrigation,CPWD,136.87,36,2022-11-07,60.3,41.1,29.0,23.9,13.4,High,CPWD Irrigation Phase 0370
+PRJ0371,Roads & Highways,Indian Railways,53.01,24,2019-10-18,102.2,101.0,90.6,9.4,3.1,Low,Indian Railways Roads & Highways Phase 0371
+PRJ0372,Urban Infrastructure,NTPC,65.86,36,2019-03-21,106.3,91.3,71.3,22.1,12.8,Medium,NTPC Urban Infrastructure Phase 0372
+PRJ0373,Urban Infrastructure,State PWD,148.97,60,2021-03-10,112.5,91.4,81.2,20.1,17.9,Medium,State PWD Urban Infrastructure Phase 0373
+PRJ0374,Urban Infrastructure,NTPC,25.05,12,2023-06-22,47.2,32.5,28.6,12.4,3.0,Medium,NTPC Urban Infrastructure Phase 0374
+PRJ0375,Power,NHAI,145.98,12,2021-04-16,71.8,52.1,41.7,22.9,3.7,Medium,NHAI Power Phase 0375
+PRJ0376,Railways,State PWD,28.22,36,2020-12-17,78.8,75.5,70.2,18.7,6.6,Medium,State PWD Railways Phase 0376
+PRJ0377,Irrigation,CPWD,112.18,24,2021-07-14,63.9,53.0,43.1,21.1,6.5,Medium,CPWD Irrigation Phase 0377
+PRJ0378,Roads & Highways,NTPC,86.62,18,2022-04-22,118.6,116.1,97.5,11.5,5.3,Medium,NTPC Roads & Highways Phase 0378
+PRJ0379,Power,Indian Railways,59.19,36,2022-05-23,43.2,42.2,32.2,17.3,5.0,Medium,Indian Railways Power Phase 0379
+PRJ0380,Urban Infrastructure,CPWD,102.48,36,2019-08-23,92.2,71.6,70.1,22.3,10.5,Medium,CPWD Urban Infrastructure Phase 0380
+PRJ0381,Roads & Highways,NHAI,173.05,18,2020-02-25,32.6,30.5,31.7,20.0,0.6,Low,NHAI Roads & Highways Phase 0381
+PRJ0382,Railways,Municipal Corporation,31.25,12,2023-07-27,53.5,41.1,28.9,26.9,4.9,High,Municipal Corporation Railways Phase 0382
+PRJ0383,Roads & Highways,Municipal Corporation,16.3,36,2020-10-17,92.3,55.6,40.1,17.3,20.7,High,Municipal Corporation Roads & Highways Phase 0383
+PRJ0384,Urban Infrastructure,Municipal Corporation,228.23,24,2019-10-22,54.4,39.5,31.3,13.1,7.4,Medium,Municipal Corporation Urban Infrastructure Phase 0384
+PRJ0385,Railways,State PWD,81.41,36,2021-05-21,106.3,87.3,67.7,31.9,14.6,High,State PWD Railways Phase 0385
+PRJ0386,Urban Infrastructure,State PWD,19.04,12,2020-04-27,69.7,53.2,49.9,23.2,1.5,Medium,State PWD Urban Infrastructure Phase 0386
+PRJ0387,Irrigation,NTPC,12.82,48,2023-06-01,62.7,43.4,36.6,26.7,16.5,High,NTPC Irrigation Phase 0387
+PRJ0388,Roads & Highways,Municipal Corporation,15.48,36,2023-01-23,73.7,48.8,46.8,22.0,8.0,Medium,Municipal Corporation Roads & Highways Phase 0388
+PRJ0389,Irrigation,Municipal Corporation,145.8,48,2020-06-04,81.4,69.0,58.3,33.9,11.5,Medium,Municipal Corporation Irrigation Phase 0389
+PRJ0390,Roads & Highways,CPWD,23.04,12,2021-02-12,60.7,39.5,29.1,19.1,7.4,High,CPWD Roads & Highways Phase 0390
+PRJ0391,Urban Infrastructure,NHAI,19.15,36,2020-03-31,125.2,80.3,59.7,23.4,20.7,High,NHAI Urban Infrastructure Phase 0391
+PRJ0392,Railways,NTPC,146.09,24,2021-12-21,105.1,87.2,74.2,33.2,7.8,High,NTPC Railways Phase 0392
+PRJ0393,Irrigation,Indian Railways,17.2,36,2022-09-06,54.1,33.7,25.2,27.4,14.0,High,Indian Railways Irrigation Phase 0393
+PRJ0394,Power,NTPC,78.1,36,2020-09-06,82.6,80.3,65.5,19.3,8.7,Medium,NTPC Power Phase 0394
+PRJ0395,Roads & Highways,Indian Railways,50.99,36,2022-04-26,109.7,87.4,80.6,22.4,9.8,Medium,Indian Railways Roads & Highways Phase 0395
+PRJ0396,Urban Infrastructure,State PWD,217.78,24,2021-10-12,85.0,53.4,39.0,17.5,12.1,High,State PWD Urban Infrastructure Phase 0396
+PRJ0397,Railways,Municipal Corporation,63.21,60,2022-08-01,116.3,116.1,105.8,21.2,13.9,Medium,Municipal Corporation Railways Phase 0397
+PRJ0398,Urban Infrastructure,Indian Railways,31.6,24,2020-04-01,113.2,71.6,73.3,16.6,8.8,Medium,Indian Railways Urban Infrastructure Phase 0398
+PRJ0399,Urban Infrastructure,NHAI,113.52,18,2019-08-31,40.4,37.7,38.5,22.5,0.4,Medium,NHAI Urban Infrastructure Phase 0399
+PRJ0400,Urban Infrastructure,NTPC,74.88,18,2023-05-24,31.5,23.0,20.5,20.9,3.2,Medium,NTPC Urban Infrastructure Phase 0400
+PRJ0401,Railways,State PWD,33.78,12,2019-05-26,121.3,120.1,101.1,11.7,3.3,Medium,State PWD Railways Phase 0401
+PRJ0402,Railways,State PWD,159.98,18,2020-12-25,104.0,90.8,73.5,30.5,5.2,Medium,State PWD Railways Phase 0402
+PRJ0403,Power,State PWD,366.96,36,2022-09-18,126.0,100.8,96.3,33.3,10.6,High,State PWD Power Phase 0403
+PRJ0404,Urban Infrastructure,NHAI,89.52,18,2021-03-08,97.9,92.0,70.7,18.3,3.7,Medium,NHAI Urban Infrastructure Phase 0404
+PRJ0405,Power,State PWD,21.36,12,2019-07-09,94.4,77.2,60.4,24.4,6.2,High,State PWD Power Phase 0405
+PRJ0406,Railways,NTPC,92.08,18,2020-12-19,95.8,82.5,62.2,28.4,7.7,High,NTPC Railways Phase 0406
+PRJ0407,Urban Infrastructure,CPWD,165.96,18,2023-08-22,88.3,78.8,80.7,19.0,3.3,Medium,CPWD Urban Infrastructure Phase 0407
+PRJ0408,Railways,NTPC,67.03,24,2021-09-17,116.9,85.0,76.8,34.7,9.9,High,NTPC Railways Phase 0408
+PRJ0409,Irrigation,NTPC,54.53,12,2019-07-25,133.5,126.7,108.8,19.7,6.0,High,NTPC Irrigation Phase 0409
+PRJ0410,Urban Infrastructure,Indian Railways,278.57,12,2023-01-04,133.5,114.7,118.6,18.9,0.5,Low,Indian Railways Urban Infrastructure Phase 0410
+PRJ0411,Irrigation,Indian Railways,8.58,12,2020-12-06,47.9,42.8,33.1,14.8,2.9,Medium,Indian Railways Irrigation Phase 0411
+PRJ0412,Railways,NHAI,25.81,12,2019-07-29,58.0,41.6,36.9,28.2,6.1,High,NHAI Railways Phase 0412
+PRJ0413,Roads & Highways,Indian Railways,175.6,24,2022-01-10,87.6,63.7,55.1,20.5,5.4,Medium,Indian Railways Roads & Highways Phase 0413
+PRJ0414,Power,Indian Railways,55.32,36,2023-01-31,116.2,82.6,85.0,26.1,9.0,Medium,Indian Railways Power Phase 0414
+PRJ0415,Irrigation,CPWD,42.75,48,2023-09-07,32.4,32.2,23.5,29.3,7.9,Medium,CPWD Irrigation Phase 0415
+PRJ0416,Irrigation,Indian Railways,138.2,36,2020-11-16,36.0,30.2,30.7,13.6,4.8,Medium,Indian Railways Irrigation Phase 0416
+PRJ0417,Roads & Highways,Municipal Corporation,78.13,24,2022-12-10,91.0,84.7,78.0,18.9,4.5,Medium,Municipal Corporation Roads & Highways Phase 0417
+PRJ0418,Power,CPWD,240.05,18,2021-01-17,31.6,25.0,17.7,25.4,4.5,Medium,CPWD Power Phase 0418
+PRJ0419,Irrigation,Indian Railways,130.36,24,2020-11-03,98.8,59.8,44.8,29.6,11.8,High,Indian Railways Irrigation Phase 0419
+PRJ0420,Power,CPWD,133.61,24,2023-03-19,134.8,128.5,102.1,25.3,6.7,Medium,CPWD Power Phase 0420
+PRJ0421,Power,State PWD,57.58,24,2023-11-26,52.2,36.7,27.2,20.3,3.4,Medium,State PWD Power Phase 0421
+PRJ0422,Railways,NTPC,241.45,24,2021-03-28,79.7,77.7,81.1,26.1,4.1,Medium,NTPC Railways Phase 0422
+PRJ0423,Roads & Highways,Municipal Corporation,77.56,12,2020-11-18,91.0,57.4,40.3,22.9,7.3,High,Municipal Corporation Roads & Highways Phase 0423
+PRJ0424,Power,NHAI,250.88,24,2019-02-13,66.9,44.9,33.0,29.1,9.8,High,NHAI Power Phase 0424
+PRJ0425,Irrigation,State PWD,13.63,24,2019-07-22,66.5,60.7,51.8,22.5,7.7,Medium,State PWD Irrigation Phase 0425
+PRJ0426,Power,NTPC,220.84,18,2022-05-22,135.8,121.1,105.6,33.8,7.4,High,NTPC Power Phase 0426
+PRJ0427,Power,Indian Railways,28.07,36,2020-10-31,87.4,54.8,41.9,31.1,16.1,High,Indian Railways Power Phase 0427
+PRJ0428,Irrigation,CPWD,536.7,24,2023-11-29,44.9,39.0,32.7,26.9,3.3,Medium,CPWD Irrigation Phase 0428
+PRJ0429,Power,NTPC,7.28,24,2021-11-02,47.8,37.7,33.7,13.4,3.1,Medium,NTPC Power Phase 0429
+PRJ0430,Power,NTPC,79.25,24,2022-11-05,92.0,64.8,61.2,31.2,8.9,High,NTPC Power Phase 0430
+PRJ0431,Railways,State PWD,16.07,18,2021-01-24,95.9,77.3,61.9,26.7,7.2,High,State PWD Railways Phase 0431
+PRJ0432,Roads & Highways,State PWD,42.49,36,2019-02-13,94.3,92.1,70.1,10.4,8.9,Medium,State PWD Roads & Highways Phase 0432
+PRJ0433,Railways,NHAI,20.52,18,2022-03-01,60.3,48.1,35.7,22.9,3.2,Medium,NHAI Railways Phase 0433
+PRJ0434,Irrigation,NTPC,134.29,48,2022-01-05,62.5,43.9,35.8,23.5,15.0,Medium,NTPC Irrigation Phase 0434
+PRJ0435,Railways,Indian Railways,499.2,24,2019-05-02,121.5,81.5,77.7,32.1,12.6,High,Indian Railways Railways Phase 0435
+PRJ0436,Railways,Municipal Corporation,155.02,12,2020-10-10,96.5,72.9,73.0,21.4,2.2,Medium,Municipal Corporation Railways Phase 0436
+PRJ0437,Roads & Highways,NTPC,383.19,36,2022-12-24,127.5,118.1,83.4,29.1,13.4,High,NTPC Roads & Highways Phase 0437
+PRJ0438,Roads & Highways,NTPC,114.65,12,2020-02-20,128.7,90.4,70.3,35.2,6.3,High,NTPC Roads & Highways Phase 0438
+PRJ0439,Railways,Municipal Corporation,130.45,18,2021-01-09,53.1,52.6,48.7,25.6,2.6,Medium,Municipal Corporation Railways Phase 0439
+PRJ0440,Power,State PWD,84.39,36,2022-05-29,136.2,103.2,76.9,37.5,22.2,High,State PWD Power Phase 0440
+PRJ0441,Urban Infrastructure,Indian Railways,22.29,12,2020-01-07,64.5,55.1,46.2,21.9,2.6,Medium,Indian Railways Urban Infrastructure Phase 0441
+PRJ0442,Roads & Highways,Municipal Corporation,42.66,36,2020-08-05,114.2,75.0,69.8,19.0,14.9,High,Municipal Corporation Roads & Highways Phase 0442
+PRJ0443,Roads & Highways,NHAI,40.7,48,2019-05-29,96.0,76.2,67.9,18.1,12.4,Medium,NHAI Roads & Highways Phase 0443
+PRJ0444,Railways,CPWD,144.16,36,2020-08-19,85.1,73.0,64.2,24.3,9.5,Medium,CPWD Railways Phase 0444
+PRJ0445,Power,NTPC,47.38,36,2022-09-15,119.3,116.7,94.5,23.9,12.5,Medium,NTPC Power Phase 0445
+PRJ0446,Urban Infrastructure,NTPC,142.53,48,2019-10-31,35.9,31.8,27.6,13.2,8.1,Medium,NTPC Urban Infrastructure Phase 0446
+PRJ0447,Roads & Highways,NTPC,66.46,18,2022-07-20,86.2,72.6,62.5,21.4,5.0,Medium,NTPC Roads & Highways Phase 0447
+PRJ0448,Urban Infrastructure,CPWD,82.73,24,2021-04-23,107.6,104.3,78.2,15.1,6.7,Medium,CPWD Urban Infrastructure Phase 0448
+PRJ0449,Railways,Indian Railways,16.65,12,2020-09-21,124.9,86.6,81.7,23.1,7.1,High,Indian Railways Railways Phase 0449
+PRJ0450,Railways,State PWD,79.53,12,2019-01-20,89.9,89.0,73.8,16.8,1.2,Medium,State PWD Railways Phase 0450
+PRJ0451,Railways,Indian Railways,166.32,24,2021-07-02,45.2,44.9,35.4,23.0,5.2,Medium,Indian Railways Railways Phase 0451
+PRJ0452,Irrigation,Municipal Corporation,29.43,24,2022-11-14,51.5,47.8,44.3,12.4,0.6,Low,Municipal Corporation Irrigation Phase 0452
+PRJ0453,Railways,Indian Railways,68.21,36,2020-07-14,123.0,86.6,60.7,37.7,24.2,High,Indian Railways Railways Phase 0453
+PRJ0454,Roads & Highways,State PWD,6.43,48,2019-07-09,90.9,73.2,58.5,19.0,16.2,Medium,State PWD Roads & Highways Phase 0454
+PRJ0455,Power,CPWD,82.32,18,2022-06-24,63.8,44.5,32.3,27.7,7.7,High,CPWD Power Phase 0455
+PRJ0456,Railways,NHAI,164.29,36,2023-07-11,41.9,29.0,27.9,28.7,6.4,Medium,NHAI Railways Phase 0456
+PRJ0457,Railways,CPWD,25.5,36,2021-07-05,124.8,118.1,83.1,19.1,16.2,High,CPWD Railways Phase 0457
+PRJ0458,Power,Indian Railways,285.61,60,2022-09-20,57.3,46.8,49.0,17.9,12.3,Medium,Indian Railways Power Phase 0458
+PRJ0459,Power,Municipal Corporation,12.51,24,2019-04-21,54.6,40.7,34.8,21.0,6.7,Medium,Municipal Corporation Power Phase 0459
+PRJ0460,Roads & Highways,CPWD,350.99,12,2020-06-19,62.8,45.7,34.6,20.1,3.8,Medium,CPWD Roads & Highways Phase 0460
+PRJ0461,Power,NHAI,93.08,24,2019-05-21,135.1,94.4,94.5,24.7,10.7,High,NHAI Power Phase 0461
+PRJ0462,Railways,Municipal Corporation,41.9,36,2023-08-10,130.0,120.6,120.0,18.1,6.1,Medium,Municipal Corporation Railways Phase 0462
+PRJ0463,Railways,CPWD,572.59,36,2019-12-16,79.2,73.8,68.6,25.8,10.2,Medium,CPWD Railways Phase 0463
+PRJ0464,Irrigation,Indian Railways,19.2,12,2020-11-10,75.5,46.5,37.0,24.1,4.9,High,Indian Railways Irrigation Phase 0464
+PRJ0465,Irrigation,NTPC,35.17,60,2020-11-17,115.3,85.0,78.1,27.3,24.0,High,NTPC Irrigation Phase 0465
+PRJ0466,Roads & Highways,NHAI,37.94,60,2023-05-17,98.8,91.2,66.1,10.7,17.4,Medium,NHAI Roads & Highways Phase 0466
+PRJ0467,Railways,Indian Railways,213.03,24,2019-08-27,51.6,35.9,28.9,29.8,9.2,High,Indian Railways Railways Phase 0467
+PRJ0468,Roads & Highways,CPWD,344.22,48,2020-01-03,81.6,75.1,57.3,27.4,10.4,Medium,CPWD Roads & Highways Phase 0468
+PRJ0469,Railways,NHAI,89.64,24,2019-06-06,52.2,42.7,33.0,28.1,4.4,Medium,NHAI Railways Phase 0469
+PRJ0470,Roads & Highways,Indian Railways,72.06,24,2020-03-17,119.4,88.0,65.0,32.4,14.2,High,Indian Railways Roads & Highways Phase 0470
+PRJ0471,Railways,NTPC,37.71,18,2019-05-26,126.4,112.7,90.8,19.9,5.5,Medium,NTPC Railways Phase 0471
+PRJ0472,Roads & Highways,State PWD,87.56,18,2023-09-10,111.2,93.3,94.0,6.4,3.2,Medium,State PWD Roads & Highways Phase 0472
+PRJ0473,Power,Indian Railways,46.65,18,2023-09-27,78.9,62.8,51.7,26.7,6.0,High,Indian Railways Power Phase 0473
+PRJ0474,Roads & Highways,Municipal Corporation,139.01,48,2020-09-07,77.7,73.0,60.4,22.1,10.4,Medium,Municipal Corporation Roads & Highways Phase 0474
+PRJ0475,Irrigation,CPWD,29.61,24,2022-04-27,79.5,71.6,59.0,21.1,4.9,Medium,CPWD Irrigation Phase 0475
+PRJ0476,Roads & Highways,CPWD,93.38,24,2020-01-03,62.1,55.9,48.5,8.8,0.1,Low,CPWD Roads & Highways Phase 0476
+PRJ0477,Urban Infrastructure,Indian Railways,420.34,18,2021-03-15,43.6,29.7,20.8,25.2,5.7,Medium,Indian Railways Urban Infrastructure Phase 0477
+PRJ0478,Urban Infrastructure,Indian Railways,14.79,18,2022-08-03,96.0,85.7,83.1,13.8,3.7,Medium,Indian Railways Urban Infrastructure Phase 0478
+PRJ0479,Railways,Municipal Corporation,29.12,48,2019-08-03,66.1,61.2,55.6,22.2,9.2,Medium,Municipal Corporation Railways Phase 0479
+PRJ0480,Power,CPWD,3.94,18,2023-03-13,39.3,29.2,27.4,22.0,2.8,Medium,CPWD Power Phase 0480
+PRJ0481,Irrigation,State PWD,603.36,18,2020-01-17,34.6,25.2,22.6,33.9,4.4,Medium,State PWD Irrigation Phase 0481
+PRJ0482,Power,CPWD,143.78,18,2022-06-07,51.2,32.6,28.9,26.4,5.9,Medium,CPWD Power Phase 0482
+PRJ0483,Roads & Highways,Municipal Corporation,170.1,48,2021-11-14,43.7,28.3,27.0,20.6,8.3,Medium,Municipal Corporation Roads & Highways Phase 0483
+PRJ0484,Power,NHAI,18.01,36,2021-05-31,88.2,64.7,57.0,25.9,11.9,Medium,NHAI Power Phase 0484
+PRJ0485,Urban Infrastructure,State PWD,63.8,48,2022-09-11,118.6,77.6,56.2,14.7,26.9,High,State PWD Urban Infrastructure Phase 0485
+PRJ0486,Roads & Highways,NHAI,140.86,36,2023-02-14,124.9,90.7,90.6,16.4,12.2,Medium,NHAI Roads & Highways Phase 0486
+PRJ0487,Power,Indian Railways,14.85,18,2020-05-21,80.3,63.5,61.8,26.2,4.1,Medium,Indian Railways Power Phase 0487
+PRJ0488,Urban Infrastructure,Indian Railways,325.35,18,2021-06-27,114.6,71.6,64.6,34.9,8.1,High,Indian Railways Urban Infrastructure Phase 0488
+PRJ0489,Railways,NHAI,311.6,48,2020-09-15,101.9,75.4,69.1,25.2,18.2,High,NHAI Railways Phase 0489
+PRJ0490,Urban Infrastructure,NHAI,85.98,60,2023-10-13,125.2,105.2,99.4,22.5,14.4,Medium,NHAI Urban Infrastructure Phase 0490
+PRJ0491,Irrigation,CPWD,324.76,18,2020-07-26,131.7,82.0,71.3,37.0,11.0,High,CPWD Irrigation Phase 0491
+PRJ0492,Irrigation,NTPC,126.78,18,2023-03-14,91.5,73.8,54.2,34.7,4.9,High,NTPC Irrigation Phase 0492
+PRJ0493,Railways,State PWD,176.51,18,2019-03-05,112.1,103.2,78.0,28.4,5.1,Medium,State PWD Railways Phase 0493
+PRJ0494,Urban Infrastructure,State PWD,65.55,18,2020-07-23,122.9,97.2,90.8,11.3,4.7,Medium,State PWD Urban Infrastructure Phase 0494
+PRJ0495,Urban Infrastructure,State PWD,14.03,36,2023-08-27,139.5,108.8,85.8,21.0,19.7,High,State PWD Urban Infrastructure Phase 0495
+PRJ0496,Irrigation,NTPC,44.18,18,2022-10-16,76.8,63.5,44.9,24.6,5.9,Medium,NTPC Irrigation Phase 0496
+PRJ0497,Irrigation,NHAI,59.6,60,2020-11-29,121.3,79.2,81.4,22.9,24.2,High,NHAI Irrigation Phase 0497
+PRJ0498,Railways,CPWD,260.49,18,2020-08-20,107.1,97.0,99.5,28.1,2.5,Medium,CPWD Railways Phase 0498
+PRJ0499,Irrigation,State PWD,10.48,18,2023-11-05,100.7,89.3,93.1,14.2,4.9,Medium,State PWD Irrigation Phase 0499
+PRJ0500,Power,NHAI,31.74,48,2019-11-22,134.2,92.3,75.1,27.5,29.9,High,NHAI Power Phase 0500
+PRJ0501,Roads & Highways,State PWD,22.46,60,2020-02-19,61.8,46.2,43.1,8.1,12.7,Medium,State PWD Roads & Highways Phase 0501
+PRJ0502,Railways,NHAI,174.48,18,2022-12-03,38.5,27.5,24.9,25.5,4.1,Medium,NHAI Railways Phase 0502
+PRJ0503,Power,NTPC,145.54,36,2021-11-13,117.8,111.4,95.8,23.4,6.6,Medium,NTPC Power Phase 0503
+PRJ0504,Urban Infrastructure,NTPC,30.99,36,2019-05-30,124.9,99.0,71.7,12.9,19.8,High,NTPC Urban Infrastructure Phase 0504
+PRJ0505,Urban Infrastructure,Indian Railways,69.78,12,2023-10-16,86.4,61.9,53.5,25.9,3.3,Medium,Indian Railways Urban Infrastructure Phase 0505
+PRJ0506,Railways,CPWD,130.74,12,2020-06-20,115.8,91.3,71.2,29.3,4.3,High,CPWD Railways Phase 0506
+PRJ0507,Railways,Indian Railways,12.65,48,2021-04-08,108.1,107.4,77.0,25.7,18.4,High,Indian Railways Railways Phase 0507
+PRJ0508,Irrigation,CPWD,31.18,12,2019-02-09,115.2,75.3,65.0,22.6,9.1,High,CPWD Irrigation Phase 0508
+PRJ0509,Power,Municipal Corporation,18.8,36,2021-10-20,117.1,116.5,91.8,22.5,12.4,Medium,Municipal Corporation Power Phase 0509
+PRJ0510,Railways,NTPC,55.88,36,2023-07-27,135.8,109.1,93.7,30.9,15.0,High,NTPC Railways Phase 0510
+PRJ0511,Roads & Highways,State PWD,100.42,24,2023-01-17,73.1,57.0,54.4,19.0,4.1,Medium,State PWD Roads & Highways Phase 0511
+PRJ0512,Urban Infrastructure,Municipal Corporation,44.69,12,2023-04-15,81.9,72.5,60.7,12.2,1.0,Low,Municipal Corporation Urban Infrastructure Phase 0512
+PRJ0513,Roads & Highways,NHAI,104.38,36,2021-10-23,97.1,94.9,92.6,12.1,3.4,Low,NHAI Roads & Highways Phase 0513
+PRJ0514,Urban Infrastructure,NTPC,33.98,36,2023-11-27,61.6,50.2,44.5,9.1,6.9,Medium,NTPC Urban Infrastructure Phase 0514
+PRJ0515,Roads & Highways,State PWD,50.2,12,2020-06-15,40.0,34.7,25.9,11.8,2.5,Medium,State PWD Roads & Highways Phase 0515
+PRJ0516,Roads & Highways,NHAI,79.82,18,2021-02-16,116.0,92.1,90.0,6.9,6.1,Medium,NHAI Roads & Highways Phase 0516
+PRJ0517,Urban Infrastructure,Municipal Corporation,23.68,24,2020-04-14,31.0,26.6,23.4,8.8,3.9,Medium,Municipal Corporation Urban Infrastructure Phase 0517
+PRJ0518,Power,Municipal Corporation,51.25,48,2019-09-09,92.6,87.7,79.3,15.2,12.3,Medium,Municipal Corporation Power Phase 0518
+PRJ0519,Railways,Municipal Corporation,4.54,48,2020-03-15,136.3,130.0,102.3,22.1,20.3,High,Municipal Corporation Railways Phase 0519
+PRJ0520,Urban Infrastructure,NHAI,39.61,48,2019-10-17,49.0,34.7,25.7,14.8,12.0,Medium,NHAI Urban Infrastructure Phase 0520
+PRJ0521,Roads & Highways,NHAI,59.54,12,2022-10-06,86.5,78.9,69.7,14.2,4.1,Medium,NHAI Roads & Highways Phase 0521
+PRJ0522,Roads & Highways,NTPC,104.72,36,2019-06-09,104.5,65.4,59.4,17.2,16.0,High,NTPC Roads & Highways Phase 0522
+PRJ0523,Urban Infrastructure,CPWD,37.87,18,2023-08-16,104.5,67.7,49.0,31.0,7.0,High,CPWD Urban Infrastructure Phase 0523
+PRJ0524,Irrigation,Indian Railways,49.49,12,2020-06-05,56.3,38.6,32.5,18.0,4.7,Medium,Indian Railways Irrigation Phase 0524
+PRJ0525,Power,State PWD,75.42,60,2022-12-11,56.6,35.5,28.8,23.1,19.7,Medium,State PWD Power Phase 0525
+PRJ0526,Irrigation,Municipal Corporation,8.0,36,2019-01-23,100.9,67.9,53.1,24.6,18.9,High,Municipal Corporation Irrigation Phase 0526
+PRJ0527,Urban Infrastructure,NTPC,45.54,12,2023-04-01,119.8,119.0,120.0,16.3,1.1,Medium,NTPC Urban Infrastructure Phase 0527
+PRJ0528,Irrigation,Indian Railways,19.79,18,2022-09-15,92.5,65.7,56.9,29.6,4.4,Medium,Indian Railways Irrigation Phase 0528
+PRJ0529,Irrigation,Indian Railways,78.0,12,2020-02-24,84.1,60.9,46.5,38.4,1.9,Medium,Indian Railways Irrigation Phase 0529
+PRJ0530,Railways,NHAI,57.53,24,2020-06-20,80.1,53.3,43.0,21.0,11.5,High,NHAI Railways Phase 0530
+PRJ0531,Urban Infrastructure,NHAI,30.42,24,2022-10-08,59.2,54.6,43.1,14.3,4.8,Medium,NHAI Urban Infrastructure Phase 0531
+PRJ0532,Railways,Indian Railways,186.38,24,2023-12-04,54.2,34.8,31.5,42.9,5.2,High,Indian Railways Railways Phase 0532
+PRJ0533,Irrigation,NHAI,86.37,24,2019-08-21,111.7,95.7,77.6,25.1,7.3,Medium,NHAI Irrigation Phase 0533
+PRJ0534,Railways,State PWD,100.97,12,2020-11-27,120.3,118.9,102.1,38.4,3.7,High,State PWD Railways Phase 0534
+PRJ0535,Irrigation,CPWD,11.74,60,2020-04-19,60.7,59.0,41.8,27.1,17.4,Medium,CPWD Irrigation Phase 0535
+PRJ0536,Irrigation,CPWD,154.02,60,2019-04-28,120.4,103.4,95.8,27.0,17.2,Medium,CPWD Irrigation Phase 0536
+PRJ0537,Roads & Highways,NHAI,97.25,18,2019-06-24,37.1,31.0,30.7,19.0,1.8,Medium,NHAI Roads & Highways Phase 0537
+PRJ0538,Irrigation,Indian Railways,191.25,18,2020-12-17,132.5,97.4,99.3,31.0,7.9,High,Indian Railways Irrigation Phase 0538
+PRJ0539,Railways,CPWD,37.59,18,2022-04-15,41.3,25.0,18.7,23.7,5.5,Medium,CPWD Railways Phase 0539
+PRJ0540,Railways,CPWD,82.1,36,2021-06-20,93.0,60.9,62.6,23.6,10.3,Medium,CPWD Railways Phase 0540
+PRJ0541,Irrigation,NTPC,42.26,36,2021-07-14,96.6,82.4,72.9,23.1,13.5,High,NTPC Irrigation Phase 0541
+PRJ0542,Railways,State PWD,128.93,36,2023-04-15,50.8,38.7,39.9,18.5,7.3,Medium,State PWD Railways Phase 0542
+PRJ0543,Urban Infrastructure,CPWD,7.7,60,2023-10-06,78.5,55.3,54.9,17.8,17.0,Medium,CPWD Urban Infrastructure Phase 0543
+PRJ0544,Railways,Indian Railways,189.58,24,2019-08-15,44.3,38.5,38.6,23.8,4.7,Medium,Indian Railways Railways Phase 0544
+PRJ0545,Urban Infrastructure,NHAI,425.79,36,2022-06-19,121.8,75.8,72.9,37.0,15.9,High,NHAI Urban Infrastructure Phase 0545
+PRJ0546,Roads & Highways,NHAI,125.49,18,2023-09-21,33.7,28.0,21.2,9.4,3.6,Medium,NHAI Roads & Highways Phase 0546
+PRJ0547,Urban Infrastructure,State PWD,86.73,24,2023-06-30,46.1,39.6,30.9,12.6,5.3,Medium,State PWD Urban Infrastructure Phase 0547
+PRJ0548,Power,NHAI,20.67,36,2020-07-11,79.3,60.4,63.1,14.3,6.9,Medium,NHAI Power Phase 0548
+PRJ0549,Railways,Indian Railways,9.56,60,2020-04-23,128.5,82.4,76.7,33.2,32.4,High,Indian Railways Railways Phase 0549
+PRJ0550,Urban Infrastructure,Municipal Corporation,93.5,24,2021-04-24,37.8,35.1,28.7,16.8,7.5,Medium,Municipal Corporation Urban Infrastructure Phase 0550
+PRJ0551,Power,NHAI,44.77,24,2022-08-13,122.4,100.1,73.1,23.6,11.0,High,NHAI Power Phase 0551
+PRJ0552,Roads & Highways,Indian Railways,31.7,24,2022-05-03,105.1,89.5,71.0,16.9,7.1,Medium,Indian Railways Roads & Highways Phase 0552
+PRJ0553,Urban Infrastructure,NTPC,94.72,36,2023-10-30,138.4,121.1,95.1,18.3,14.7,Medium,NTPC Urban Infrastructure Phase 0553
+PRJ0554,Power,NTPC,63.56,60,2020-11-20,99.4,76.7,65.5,30.1,21.4,High,NTPC Power Phase 0554
+PRJ0555,Railways,Indian Railways,110.04,24,2023-04-26,59.9,36.0,27.3,21.7,7.3,Medium,Indian Railways Railways Phase 0555
+PRJ0556,Railways,State PWD,16.46,36,2020-06-23,80.4,51.3,52.0,24.6,13.0,High,State PWD Railways Phase 0556
+PRJ0557,Irrigation,Indian Railways,41.73,48,2023-12-04,53.3,37.6,35.0,23.6,14.5,Medium,Indian Railways Irrigation Phase 0557
+PRJ0558,Irrigation,State PWD,55.45,60,2019-10-22,62.9,40.3,32.0,22.6,23.3,High,State PWD Irrigation Phase 0558
+PRJ0559,Roads & Highways,Indian Railways,10.95,24,2022-06-30,129.7,84.9,61.1,16.3,16.4,High,Indian Railways Roads & Highways Phase 0559
+PRJ0560,Railways,Indian Railways,143.23,18,2021-05-19,37.0,31.2,32.6,28.4,1.8,Medium,Indian Railways Railways Phase 0560
+PRJ0561,Power,State PWD,60.81,48,2020-09-12,72.9,69.8,68.7,15.6,5.2,Medium,State PWD Power Phase 0561
+PRJ0562,Railways,Indian Railways,136.99,18,2022-02-02,33.2,28.4,22.7,13.3,2.8,Medium,Indian Railways Railways Phase 0562
+PRJ0563,Irrigation,Municipal Corporation,146.14,60,2019-12-13,108.9,94.3,77.3,28.2,22.1,High,Municipal Corporation Irrigation Phase 0563
+PRJ0564,Power,CPWD,96.63,24,2019-12-26,112.6,101.1,76.0,24.3,10.4,High,CPWD Power Phase 0564
+PRJ0565,Railways,Municipal Corporation,22.67,12,2021-11-06,95.7,85.7,60.9,17.3,3.9,Medium,Municipal Corporation Railways Phase 0565
+PRJ0566,Railways,Indian Railways,58.34,12,2023-06-30,107.2,86.1,73.6,25.6,3.7,Medium,Indian Railways Railways Phase 0566
+PRJ0567,Railways,CPWD,130.8,12,2020-01-27,57.5,53.7,46.3,30.8,3.7,High,CPWD Railways Phase 0567
+PRJ0568,Power,Indian Railways,53.26,60,2021-04-05,50.0,36.0,25.9,27.9,17.7,Medium,Indian Railways Power Phase 0568
+PRJ0569,Railways,NTPC,38.25,48,2020-10-07,99.4,88.1,74.9,24.5,16.2,Medium,NTPC Railways Phase 0569
+PRJ0570,Urban Infrastructure,State PWD,53.4,48,2019-05-22,66.4,46.4,48.6,22.9,9.2,Medium,State PWD Urban Infrastructure Phase 0570
+PRJ0571,Railways,CPWD,84.57,12,2020-01-08,131.8,98.3,72.4,39.6,5.6,High,CPWD Railways Phase 0571
+PRJ0572,Railways,CPWD,176.26,48,2021-01-04,137.8,118.5,113.8,31.5,15.7,High,CPWD Railways Phase 0572
+PRJ0573,Irrigation,NHAI,58.57,12,2019-05-26,104.0,91.0,74.6,18.8,5.1,High,NHAI Irrigation Phase 0573
+PRJ0574,Railways,CPWD,29.89,48,2023-03-11,61.8,60.6,43.5,23.8,11.3,Medium,CPWD Railways Phase 0574
+PRJ0575,Roads & Highways,CPWD,70.28,24,2021-06-23,58.4,51.4,36.2,14.7,5.8,Medium,CPWD Roads & Highways Phase 0575
+PRJ0576,Railways,State PWD,29.68,60,2023-06-14,108.5,100.6,93.9,23.9,13.8,Medium,State PWD Railways Phase 0576
+PRJ0577,Railways,CPWD,160.92,24,2023-03-28,53.4,45.1,32.9,23.6,8.9,High,CPWD Railways Phase 0577
+PRJ0578,Railways,CPWD,116.15,18,2019-02-26,43.1,36.6,37.6,25.0,1.8,Medium,CPWD Railways Phase 0578
+PRJ0579,Roads & Highways,Indian Railways,167.66,18,2020-06-18,30.1,29.6,30.3,14.1,0.8,Low,Indian Railways Roads & Highways Phase 0579
+PRJ0580,Urban Infrastructure,NHAI,59.64,12,2019-01-29,97.8,96.2,97.8,8.2,1.3,Low,NHAI Urban Infrastructure Phase 0580
+PRJ0581,Irrigation,CPWD,184.62,48,2020-11-24,76.0,46.9,37.6,25.5,18.6,High,CPWD Irrigation Phase 0581
+PRJ0582,Irrigation,State PWD,47.41,12,2021-06-30,119.6,116.6,102.5,21.5,3.9,Medium,State PWD Irrigation Phase 0582
+PRJ0583,Urban Infrastructure,CPWD,53.16,24,2021-06-01,123.1,114.9,96.6,23.7,6.6,Medium,CPWD Urban Infrastructure Phase 0583
+PRJ0584,Roads & Highways,NTPC,5.46,18,2022-11-30,83.5,61.3,45.2,13.3,5.7,Medium,NTPC Roads & Highways Phase 0584
+PRJ0585,Irrigation,CPWD,93.21,24,2020-10-03,79.2,78.1,65.0,11.7,4.1,Medium,CPWD Irrigation Phase 0585
+PRJ0586,Power,Municipal Corporation,22.37,36,2019-05-18,103.0,71.6,62.4,30.6,14.0,High,Municipal Corporation Power Phase 0586
+PRJ0587,Irrigation,CPWD,64.94,24,2023-01-12,105.2,70.8,69.9,30.1,7.5,High,CPWD Irrigation Phase 0587
+PRJ0588,Irrigation,Indian Railways,39.3,18,2021-07-23,55.8,36.2,26.9,31.9,7.0,High,Indian Railways Irrigation Phase 0588
+PRJ0589,Power,Municipal Corporation,8.34,36,2022-04-01,138.8,98.0,91.6,28.6,18.2,High,Municipal Corporation Power Phase 0589
+PRJ0590,Urban Infrastructure,CPWD,107.95,18,2019-09-30,61.3,46.0,44.4,12.4,3.8,Medium,CPWD Urban Infrastructure Phase 0590
+PRJ0591,Railways,Municipal Corporation,43.89,60,2022-02-21,118.2,93.0,76.8,24.8,26.6,High,Municipal Corporation Railways Phase 0591
+PRJ0592,Railways,CPWD,92.51,24,2022-01-30,134.1,111.5,99.2,32.9,11.2,High,CPWD Railways Phase 0592
+PRJ0593,Power,CPWD,134.04,12,2022-08-06,127.8,79.8,68.4,32.4,7.4,High,CPWD Power Phase 0593
+PRJ0594,Irrigation,Indian Railways,11.93,18,2021-04-07,60.7,45.4,34.3,23.8,7.3,High,Indian Railways Irrigation Phase 0594
+PRJ0595,Railways,Indian Railways,58.48,24,2019-07-18,72.8,50.7,35.8,37.4,9.1,High,Indian Railways Railways Phase 0595
+PRJ0596,Power,Indian Railways,41.74,12,2019-07-01,51.9,51.9,36.4,14.9,3.3,Medium,Indian Railways Power Phase 0596
+PRJ0597,Railways,Municipal Corporation,57.91,18,2022-10-13,131.9,104.7,84.8,35.8,10.0,High,Municipal Corporation Railways Phase 0597
+PRJ0598,Irrigation,State PWD,172.49,24,2020-09-23,115.0,106.0,79.9,21.4,7.3,Medium,State PWD Irrigation Phase 0598
+PRJ0599,Roads & Highways,State PWD,110.94,18,2020-10-22,41.6,35.4,26.3,18.7,5.2,Medium,State PWD Roads & Highways Phase 0599
+PRJ0600,Urban Infrastructure,State PWD,7.05,24,2019-11-11,71.7,67.2,62.2,17.0,4.1,Medium,State PWD Urban Infrastructure Phase 0600
+PRJ0601,Irrigation,CPWD,121.16,24,2021-01-17,48.6,32.8,23.1,20.4,7.8,Medium,CPWD Irrigation Phase 0601
+PRJ0602,Power,Indian Railways,21.0,24,2021-09-16,98.2,84.9,84.3,17.0,4.8,Medium,Indian Railways Power Phase 0602
+PRJ0603,Power,State PWD,83.77,12,2020-06-29,100.2,74.2,76.0,22.7,3.7,Medium,State PWD Power Phase 0603
+PRJ0604,Railways,Municipal Corporation,24.51,36,2020-04-05,70.1,65.7,50.5,24.6,12.1,Medium,Municipal Corporation Railways Phase 0604
+PRJ0605,Power,NHAI,19.91,24,2023-04-11,77.5,76.5,65.7,21.7,4.3,Medium,NHAI Power Phase 0605
+PRJ0606,Irrigation,CPWD,17.59,48,2023-05-06,68.5,43.4,41.4,28.3,14.8,Medium,CPWD Irrigation Phase 0606
+PRJ0607,Power,NTPC,29.68,24,2020-11-08,70.4,57.1,56.1,25.7,5.9,Medium,NTPC Power Phase 0607
+PRJ0608,Urban Infrastructure,CPWD,4.75,18,2020-05-14,132.7,118.0,106.4,15.5,5.1,Medium,CPWD Urban Infrastructure Phase 0608
+PRJ0609,Power,NHAI,26.92,24,2021-03-07,103.6,75.2,70.6,22.7,8.3,Medium,NHAI Power Phase 0609
+PRJ0610,Roads & Highways,NTPC,94.87,24,2020-04-26,76.4,48.7,36.2,27.3,8.3,High,NTPC Roads & Highways Phase 0610
+PRJ0611,Irrigation,CPWD,24.49,36,2022-02-17,118.6,110.3,110.8,20.0,8.8,Medium,CPWD Irrigation Phase 0611
+PRJ0612,Railways,State PWD,24.46,60,2019-11-12,31.1,20.5,19.9,11.6,10.0,Medium,State PWD Railways Phase 0612
+PRJ0613,Roads & Highways,NHAI,42.09,18,2023-03-08,129.7,105.9,97.4,19.5,6.8,Medium,NHAI Roads & Highways Phase 0613
+PRJ0614,Roads & Highways,Municipal Corporation,27.09,60,2022-01-12,51.2,43.1,40.4,20.2,8.9,Medium,Municipal Corporation Roads & Highways Phase 0614
+PRJ0615,Irrigation,State PWD,119.98,12,2020-03-19,80.6,68.6,61.4,35.2,1.9,Medium,State PWD Irrigation Phase 0615
+PRJ0616,Railways,CPWD,157.42,12,2021-01-14,112.5,98.7,103.3,23.4,0.0,Low,CPWD Railways Phase 0616
+PRJ0617,Urban Infrastructure,Indian Railways,366.91,36,2021-11-15,135.6,117.2,103.5,14.8,11.7,Medium,Indian Railways Urban Infrastructure Phase 0617
+PRJ0618,Irrigation,NHAI,37.02,36,2020-01-10,52.6,35.5,26.4,26.8,11.0,Medium,NHAI Irrigation Phase 0618
+PRJ0619,Roads & Highways,Indian Railways,26.61,48,2019-09-05,67.0,55.9,41.2,19.2,11.5,Medium,Indian Railways Roads & Highways Phase 0619
+PRJ0620,Roads & Highways,CPWD,274.56,24,2022-07-22,133.5,127.2,112.0,20.6,7.7,Medium,CPWD Roads & Highways Phase 0620
+PRJ0621,Irrigation,NHAI,169.63,18,2022-03-28,51.8,34.1,35.8,28.4,2.7,Medium,NHAI Irrigation Phase 0621
+PRJ0622,Power,CPWD,472.99,36,2019-03-31,40.4,24.8,21.7,25.9,9.4,Medium,CPWD Power Phase 0622
+PRJ0623,Irrigation,NTPC,122.91,60,2022-05-28,127.2,124.5,108.4,17.8,16.9,Medium,NTPC Irrigation Phase 0623
+PRJ0624,Power,NTPC,90.05,18,2023-08-31,109.9,75.6,64.8,29.2,10.5,High,NTPC Power Phase 0624
+PRJ0625,Railways,Municipal Corporation,17.58,24,2019-08-17,95.2,75.5,69.3,25.1,9.0,High,Municipal Corporation Railways Phase 0625
+PRJ0626,Power,NHAI,53.86,18,2019-04-29,107.7,74.9,62.6,32.1,8.2,High,NHAI Power Phase 0626
+PRJ0627,Roads & Highways,Indian Railways,26.7,12,2021-05-04,31.1,19.7,19.4,14.5,2.0,Medium,Indian Railways Roads & Highways Phase 0627
+PRJ0628,Power,Indian Railways,60.8,60,2020-01-07,126.2,77.2,56.5,35.5,41.2,High,Indian Railways Power Phase 0628
+PRJ0629,Railways,NHAI,33.48,18,2022-11-27,50.6,31.7,33.3,20.2,6.3,Medium,NHAI Railways Phase 0629
+PRJ0630,Railways,NHAI,34.88,60,2023-07-26,31.0,19.5,15.4,26.3,15.5,Medium,NHAI Railways Phase 0630
+PRJ0631,Railways,NTPC,77.67,24,2020-08-28,87.1,86.4,81.5,21.4,2.4,Medium,NTPC Railways Phase 0631
+PRJ0632,Railways,Municipal Corporation,126.14,36,2020-07-25,83.2,59.7,47.2,32.7,14.4,High,Municipal Corporation Railways Phase 0632
+PRJ0633,Roads & Highways,CPWD,10.65,36,2019-12-08,120.1,77.6,72.2,28.5,17.6,High,CPWD Roads & Highways Phase 0633
+PRJ0634,Urban Infrastructure,NHAI,22.97,12,2023-05-06,38.6,34.0,34.8,7.5,0.0,Low,NHAI Urban Infrastructure Phase 0634
+PRJ0635,Power,NHAI,111.09,48,2021-06-22,78.1,57.5,54.7,24.3,12.6,Medium,NHAI Power Phase 0635
+PRJ0636,Roads & Highways,CPWD,21.66,18,2020-11-22,124.0,111.5,88.7,15.6,5.3,Medium,CPWD Roads & Highways Phase 0636
+PRJ0637,Irrigation,NTPC,164.05,24,2020-10-20,118.8,96.1,71.2,43.4,12.0,High,NTPC Irrigation Phase 0637
+PRJ0638,Urban Infrastructure,NTPC,16.67,18,2019-06-06,96.6,60.2,56.3,30.7,7.6,High,NTPC Urban Infrastructure Phase 0638
+PRJ0639,Roads & Highways,State PWD,12.45,18,2021-08-02,101.7,92.7,89.8,9.5,2.4,Low,State PWD Roads & Highways Phase 0639
+PRJ0640,Railways,NTPC,29.09,48,2021-09-15,132.3,129.5,93.8,39.4,19.5,High,NTPC Railways Phase 0640
+PRJ0641,Irrigation,NHAI,351.96,18,2021-12-19,106.7,67.9,59.3,30.5,10.2,High,NHAI Irrigation Phase 0641
+PRJ0642,Roads & Highways,Indian Railways,19.23,24,2019-12-23,78.2,59.7,50.7,18.4,10.4,High,Indian Railways Roads & Highways Phase 0642
+PRJ0643,Railways,State PWD,107.04,24,2020-09-16,112.1,107.3,103.6,13.6,6.5,Medium,State PWD Railways Phase 0643
+PRJ0644,Railways,NHAI,22.19,12,2020-09-14,118.8,83.0,60.0,26.5,8.3,High,NHAI Railways Phase 0644
+PRJ0645,Railways,Indian Railways,558.84,18,2023-04-05,64.0,56.2,39.7,37.1,3.6,Medium,Indian Railways Railways Phase 0645
+PRJ0646,Power,NTPC,13.61,12,2022-11-23,54.0,47.0,46.1,25.3,2.6,Medium,NTPC Power Phase 0646
+PRJ0647,Power,NHAI,187.34,18,2021-10-25,112.0,84.2,67.8,27.2,10.2,High,NHAI Power Phase 0647
+PRJ0648,Roads & Highways,Municipal Corporation,45.33,24,2022-04-05,129.4,82.7,64.6,29.4,14.6,High,Municipal Corporation Roads & Highways Phase 0648
+PRJ0649,Power,NHAI,92.14,18,2021-04-23,95.0,90.7,91.7,13.7,4.5,Medium,NHAI Power Phase 0649
+PRJ0650,Irrigation,State PWD,81.72,60,2022-12-24,80.6,55.5,57.0,18.6,17.3,Medium,State PWD Irrigation Phase 0650
+PRJ0651,Urban Infrastructure,State PWD,179.94,24,2023-11-26,104.7,65.9,69.1,23.6,6.1,Medium,State PWD Urban Infrastructure Phase 0651
+PRJ0652,Roads & Highways,Municipal Corporation,25.35,24,2023-02-15,93.0,92.9,74.4,9.3,4.2,Medium,Municipal Corporation Roads & Highways Phase 0652
+PRJ0653,Irrigation,Indian Railways,37.27,12,2023-04-16,100.0,66.6,56.6,31.4,7.0,High,Indian Railways Irrigation Phase 0653
+PRJ0654,Irrigation,Indian Railways,20.33,24,2019-09-06,76.9,63.1,57.4,17.9,4.1,Medium,Indian Railways Irrigation Phase 0654
+PRJ0655,Roads & Highways,Indian Railways,85.52,24,2023-01-26,63.4,48.1,39.0,17.6,3.3,Medium,Indian Railways Roads & Highways Phase 0655
+PRJ0656,Irrigation,NTPC,40.35,12,2019-06-27,93.8,79.8,66.1,31.0,4.3,High,NTPC Irrigation Phase 0656
+PRJ0657,Roads & Highways,NHAI,7.22,18,2022-10-25,35.7,21.6,21.2,7.7,1.5,Low,NHAI Roads & Highways Phase 0657
+PRJ0658,Urban Infrastructure,Municipal Corporation,50.67,60,2023-03-28,108.1,85.7,75.6,22.2,19.0,Medium,Municipal Corporation Urban Infrastructure Phase 0658
+PRJ0659,Railways,Indian Railways,126.26,24,2020-08-04,132.9,99.0,82.8,30.8,13.1,High,Indian Railways Railways Phase 0659
+PRJ0660,Power,Municipal Corporation,24.81,24,2021-11-30,109.1,98.0,86.2,26.0,6.2,Medium,Municipal Corporation Power Phase 0660
+PRJ0661,Urban Infrastructure,State PWD,25.3,18,2023-08-04,129.9,118.6,83.8,22.8,9.5,High,State PWD Urban Infrastructure Phase 0661
+PRJ0662,Roads & Highways,NTPC,10.76,36,2019-05-10,130.0,127.8,92.9,8.0,13.2,Medium,NTPC Roads & Highways Phase 0662
+PRJ0663,Irrigation,NHAI,76.41,60,2021-06-24,39.1,33.2,27.2,14.2,12.1,Medium,NHAI Irrigation Phase 0663
+PRJ0664,Railways,CPWD,186.87,18,2022-10-15,59.2,53.7,41.5,24.3,1.9,Medium,CPWD Railways Phase 0664
+PRJ0665,Railways,NTPC,51.02,36,2021-07-08,82.5,77.0,74.3,27.2,5.4,Medium,NTPC Railways Phase 0665
+PRJ0666,Railways,Indian Railways,52.08,18,2021-01-29,55.3,37.6,26.8,19.6,7.6,High,Indian Railways Railways Phase 0666
+PRJ0667,Roads & Highways,Municipal Corporation,86.52,24,2021-01-18,137.6,93.6,72.6,27.8,12.5,High,Municipal Corporation Roads & Highways Phase 0667
+PRJ0668,Urban Infrastructure,NTPC,30.11,24,2019-06-27,119.3,112.9,85.9,29.0,9.1,High,NTPC Urban Infrastructure Phase 0668
+PRJ0669,Urban Infrastructure,Municipal Corporation,160.79,48,2022-03-23,86.3,57.2,41.1,19.7,19.8,High,Municipal Corporation Urban Infrastructure Phase 0669
+PRJ0670,Urban Infrastructure,State PWD,50.31,24,2022-09-24,63.6,53.3,47.3,18.3,4.3,Medium,State PWD Urban Infrastructure Phase 0670
+PRJ0671,Irrigation,CPWD,45.29,24,2019-01-13,120.1,89.4,79.5,35.3,12.3,High,CPWD Irrigation Phase 0671
+PRJ0672,Power,NHAI,170.68,24,2020-12-20,134.9,115.6,93.0,35.9,8.8,High,NHAI Power Phase 0672
+PRJ0673,Urban Infrastructure,Indian Railways,27.42,24,2021-09-10,78.0,70.1,69.4,13.4,3.6,Medium,Indian Railways Urban Infrastructure Phase 0673
+PRJ0674,Roads & Highways,CPWD,11.94,18,2021-04-30,126.5,77.9,76.5,25.7,7.7,High,CPWD Roads & Highways Phase 0674
+PRJ0675,Irrigation,NHAI,42.53,60,2021-11-09,103.4,99.7,81.9,21.5,16.4,Medium,NHAI Irrigation Phase 0675
+PRJ0676,Power,NTPC,61.67,48,2022-10-12,68.6,51.5,45.6,18.6,12.7,Medium,NTPC Power Phase 0676
+PRJ0677,Railways,NHAI,21.29,24,2023-04-08,56.5,35.7,29.4,22.1,8.7,Medium,NHAI Railways Phase 0677
+PRJ0678,Roads & Highways,Indian Railways,323.76,60,2022-11-27,96.4,76.9,54.9,24.7,23.5,High,Indian Railways Roads & Highways Phase 0678
+PRJ0679,Urban Infrastructure,NTPC,14.07,24,2021-11-22,79.0,73.8,58.5,20.2,8.2,Medium,NTPC Urban Infrastructure Phase 0679
+PRJ0680,Urban Infrastructure,NHAI,4.28,36,2020-12-11,101.1,66.7,68.5,25.5,10.8,Medium,NHAI Urban Infrastructure Phase 0680
+PRJ0681,Roads & Highways,CPWD,50.91,48,2021-08-07,132.3,105.0,91.5,12.0,18.7,Medium,CPWD Roads & Highways Phase 0681
+PRJ0682,Roads & Highways,Indian Railways,40.85,60,2023-08-25,87.2,76.0,73.9,13.5,8.3,Medium,Indian Railways Roads & Highways Phase 0682
+PRJ0683,Power,Indian Railways,63.78,24,2019-01-25,32.1,31.8,24.7,17.7,3.7,Medium,Indian Railways Power Phase 0683
+PRJ0684,Urban Infrastructure,State PWD,56.14,24,2022-03-12,32.0,27.6,25.3,10.0,2.6,Low,State PWD Urban Infrastructure Phase 0684
+PRJ0685,Urban Infrastructure,NHAI,69.89,12,2020-10-04,95.2,88.9,63.6,21.8,4.5,Medium,NHAI Urban Infrastructure Phase 0685
+PRJ0686,Urban Infrastructure,State PWD,40.27,60,2023-11-29,51.0,37.0,32.2,17.3,16.3,Medium,State PWD Urban Infrastructure Phase 0686
+PRJ0687,Irrigation,Municipal Corporation,86.54,24,2019-12-11,86.9,83.7,82.1,20.0,3.9,Medium,Municipal Corporation Irrigation Phase 0687
+PRJ0688,Urban Infrastructure,State PWD,34.61,12,2021-08-19,126.7,96.8,84.1,20.5,4.4,Medium,State PWD Urban Infrastructure Phase 0688
+PRJ0689,Railways,NTPC,77.56,24,2021-08-06,114.0,68.7,70.1,31.5,12.7,High,NTPC Railways Phase 0689
+PRJ0690,Power,NHAI,123.48,24,2021-10-25,35.1,29.8,27.4,19.5,5.5,Medium,NHAI Power Phase 0690
+PRJ0691,Irrigation,NHAI,172.71,18,2020-05-19,120.3,100.3,88.0,21.0,8.4,High,NHAI Irrigation Phase 0691
+PRJ0692,Roads & Highways,State PWD,20.25,36,2019-05-07,125.1,100.1,85.4,26.1,15.5,High,State PWD Roads & Highways Phase 0692
+PRJ0693,Power,CPWD,22.24,60,2023-01-12,68.1,62.9,51.8,24.2,13.2,Medium,CPWD Power Phase 0693
+PRJ0694,Urban Infrastructure,Indian Railways,525.5,18,2023-11-02,44.8,32.5,28.3,11.8,0.7,Low,Indian Railways Urban Infrastructure Phase 0694
+PRJ0695,Railways,NHAI,33.79,60,2019-07-23,113.3,102.3,100.6,18.7,13.2,Medium,NHAI Railways Phase 0695
+PRJ0696,Irrigation,NTPC,98.13,24,2020-04-22,110.8,94.6,95.2,21.4,2.9,Medium,NTPC Irrigation Phase 0696
+PRJ0697,Power,Municipal Corporation,43.29,18,2020-04-25,86.0,56.7,51.8,31.5,9.4,High,Municipal Corporation Power Phase 0697
+PRJ0698,Urban Infrastructure,NTPC,97.16,24,2023-10-19,78.3,63.9,66.4,18.0,3.3,Medium,NTPC Urban Infrastructure Phase 0698
+PRJ0699,Railways,Municipal Corporation,6.82,24,2019-05-12,114.1,81.5,82.3,30.3,7.7,High,Municipal Corporation Railways Phase 0699
+PRJ0700,Railways,NHAI,36.66,24,2023-01-14,129.6,84.0,74.4,36.8,14.2,High,NHAI Railways Phase 0700
+PRJ0701,Railways,NHAI,81.28,60,2020-04-22,129.4,94.3,84.2,32.5,28.6,High,NHAI Railways Phase 0701
+PRJ0702,Power,NTPC,362.99,18,2022-04-20,30.0,27.7,20.2,22.5,1.5,Medium,NTPC Power Phase 0702
+PRJ0703,Railways,State PWD,68.74,24,2022-10-06,139.2,120.2,86.3,29.8,15.1,High,State PWD Railways Phase 0703
+PRJ0704,Roads & Highways,NHAI,61.64,60,2023-09-06,91.0,67.0,69.5,11.0,13.8,Medium,NHAI Roads & Highways Phase 0704
+PRJ0705,Roads & Highways,Indian Railways,4.5,36,2019-08-21,77.3,54.9,55.5,12.5,7.5,Medium,Indian Railways Roads & Highways Phase 0705
+PRJ0706,Urban Infrastructure,NHAI,139.56,12,2023-10-07,87.9,63.4,52.4,22.2,3.8,Medium,NHAI Urban Infrastructure Phase 0706
+PRJ0707,Roads & Highways,NHAI,68.41,24,2022-06-19,37.5,25.4,19.7,5.7,3.6,Low,NHAI Roads & Highways Phase 0707
+PRJ0708,Roads & Highways,NTPC,105.78,60,2021-07-22,68.8,47.7,34.2,23.0,18.0,Medium,NTPC Roads & Highways Phase 0708
+PRJ0709,Power,Municipal Corporation,316.8,24,2021-07-11,59.5,46.5,40.2,21.9,6.7,Medium,Municipal Corporation Power Phase 0709
+PRJ0710,Irrigation,CPWD,63.65,12,2021-06-12,89.9,60.0,58.0,26.7,4.1,High,CPWD Irrigation Phase 0710
+PRJ0711,Urban Infrastructure,NHAI,15.59,18,2022-08-10,47.0,44.2,38.9,20.3,2.9,Medium,NHAI Urban Infrastructure Phase 0711
+PRJ0712,Railways,Municipal Corporation,26.87,18,2021-01-30,62.8,44.3,33.5,19.3,5.4,Medium,Municipal Corporation Railways Phase 0712
+PRJ0713,Roads & Highways,NTPC,13.81,60,2021-10-07,105.6,77.1,56.5,19.2,29.7,High,NTPC Roads & Highways Phase 0713
+PRJ0714,Irrigation,CPWD,19.28,24,2021-10-04,111.3,102.9,76.7,29.7,7.1,Medium,CPWD Irrigation Phase 0714
+PRJ0715,Urban Infrastructure,CPWD,8.25,18,2022-04-20,136.8,91.7,83.3,17.5,6.7,Medium,CPWD Urban Infrastructure Phase 0715
+PRJ0716,Urban Infrastructure,NHAI,5.28,48,2021-05-23,89.8,64.8,49.5,21.4,18.1,Medium,NHAI Urban Infrastructure Phase 0716
+PRJ0717,Irrigation,Municipal Corporation,11.94,24,2020-10-23,41.1,29.7,27.7,10.6,3.4,Medium,Municipal Corporation Irrigation Phase 0717
+PRJ0718,Power,State PWD,157.06,24,2023-01-11,122.7,99.2,99.3,24.5,7.3,Medium,State PWD Power Phase 0718
+PRJ0719,Roads & Highways,CPWD,102.55,36,2019-10-30,121.7,82.5,83.5,21.9,15.9,High,CPWD Roads & Highways Phase 0719
+PRJ0720,Power,NHAI,33.0,12,2020-06-07,138.2,130.0,105.6,21.5,4.6,Medium,NHAI Power Phase 0720
+PRJ0721,Urban Infrastructure,NHAI,183.23,36,2022-01-10,66.8,61.9,44.2,17.4,9.1,Medium,NHAI Urban Infrastructure Phase 0721
+PRJ0722,Roads & Highways,State PWD,181.45,48,2019-09-10,89.9,54.2,39.7,24.3,21.9,High,State PWD Roads & Highways Phase 0722
+PRJ0723,Power,State PWD,343.26,24,2023-09-27,95.9,88.5,65.4,25.0,5.9,Medium,State PWD Power Phase 0723
+PRJ0724,Urban Infrastructure,Indian Railways,17.39,18,2021-12-22,85.4,80.9,83.6,11.7,0.0,Low,Indian Railways Urban Infrastructure Phase 0724
+PRJ0725,Irrigation,NHAI,143.52,18,2022-05-11,57.9,55.2,49.5,17.6,2.4,Medium,NHAI Irrigation Phase 0725
+PRJ0726,Irrigation,Indian Railways,27.1,36,2023-01-17,61.4,42.7,41.7,20.7,8.9,Medium,Indian Railways Irrigation Phase 0726
+PRJ0727,Roads & Highways,Indian Railways,344.05,24,2022-01-07,94.4,77.3,71.4,22.8,5.2,Medium,Indian Railways Roads & Highways Phase 0727
+PRJ0728,Power,NHAI,43.69,18,2021-06-19,122.4,107.8,105.2,14.7,1.8,Medium,NHAI Power Phase 0728
+PRJ0729,Roads & Highways,NHAI,63.45,18,2019-03-26,115.7,81.1,80.4,18.2,6.5,Medium,NHAI Roads & Highways Phase 0729
+PRJ0730,Railways,Municipal Corporation,62.14,48,2021-08-13,58.1,50.5,45.0,24.6,8.9,Medium,Municipal Corporation Railways Phase 0730
+PRJ0731,Power,State PWD,79.18,24,2023-05-29,131.2,81.6,80.6,26.3,12.1,High,State PWD Power Phase 0731
+PRJ0732,Urban Infrastructure,CPWD,36.01,36,2020-06-20,75.3,51.9,53.3,27.8,8.5,Medium,CPWD Urban Infrastructure Phase 0732
+PRJ0733,Roads & Highways,NTPC,60.56,36,2021-01-21,110.4,89.3,64.8,15.4,15.8,Medium,NTPC Roads & Highways Phase 0733
+PRJ0734,Power,Indian Railways,35.4,60,2023-05-16,119.1,89.3,69.8,23.6,31.6,High,Indian Railways Power Phase 0734
+PRJ0735,Power,Indian Railways,26.02,60,2023-02-22,123.2,112.0,112.9,23.3,11.9,Medium,Indian Railways Power Phase 0735
+PRJ0736,Irrigation,NHAI,217.32,48,2021-05-01,34.3,29.3,21.1,26.5,8.9,Medium,NHAI Irrigation Phase 0736
+PRJ0737,Urban Infrastructure,NHAI,21.32,36,2020-11-02,46.0,35.1,25.9,21.9,7.5,Medium,NHAI Urban Infrastructure Phase 0737
+PRJ0738,Railways,CPWD,60.17,60,2022-04-16,34.8,25.4,23.4,12.2,12.2,Medium,CPWD Railways Phase 0738
+PRJ0739,Railways,State PWD,94.89,24,2019-12-27,65.2,54.5,39.5,21.8,8.8,Medium,State PWD Railways Phase 0739
+PRJ0740,Roads & Highways,Municipal Corporation,121.65,36,2022-04-19,82.5,70.7,50.4,24.9,12.1,Medium,Municipal Corporation Roads & Highways Phase 0740
+PRJ0741,Roads & Highways,CPWD,12.43,36,2022-06-01,125.8,92.7,89.9,12.9,13.9,Medium,CPWD Roads & Highways Phase 0741
+PRJ0742,Power,Indian Railways,65.08,24,2021-11-06,112.4,110.8,80.4,35.9,9.6,High,Indian Railways Power Phase 0742
+PRJ0743,Power,State PWD,7.76,18,2022-01-22,109.1,90.3,86.6,20.8,3.6,Medium,State PWD Power Phase 0743
+PRJ0744,Power,NTPC,69.82,48,2023-06-04,59.1,52.3,38.4,21.9,12.2,Medium,NTPC Power Phase 0744
+PRJ0745,Urban Infrastructure,Municipal Corporation,37.0,12,2020-08-11,78.1,55.6,50.2,17.6,2.3,Medium,Municipal Corporation Urban Infrastructure Phase 0745
+PRJ0746,Irrigation,State PWD,87.89,12,2021-01-03,49.5,31.9,28.6,31.4,2.4,Medium,State PWD Irrigation Phase 0746
+PRJ0747,Power,NTPC,31.46,60,2020-11-24,67.6,64.2,57.6,20.5,13.7,Medium,NTPC Power Phase 0747
+PRJ0748,Urban Infrastructure,State PWD,62.87,12,2022-12-21,138.9,104.3,89.2,30.3,5.3,High,State PWD Urban Infrastructure Phase 0748
+PRJ0749,Urban Infrastructure,CPWD,134.91,18,2023-05-07,128.1,86.9,79.5,20.7,8.0,High,CPWD Urban Infrastructure Phase 0749
+PRJ0750,Urban Infrastructure,State PWD,23.35,36,2022-01-29,61.1,45.9,33.8,17.5,13.1,Medium,State PWD Urban Infrastructure Phase 0750
+PRJ0751,Irrigation,CPWD,22.59,18,2019-02-16,67.5,62.2,63.1,11.8,0.0,Low,CPWD Irrigation Phase 0751
+PRJ0752,Urban Infrastructure,NHAI,195.5,36,2020-05-31,62.3,47.3,47.3,27.8,6.9,Medium,NHAI Urban Infrastructure Phase 0752
+PRJ0753,Power,NTPC,112.44,18,2019-09-22,124.1,108.3,82.9,28.3,9.1,High,NTPC Power Phase 0753
+PRJ0754,Irrigation,NHAI,26.98,36,2020-07-27,71.9,71.7,56.4,26.5,8.5,Medium,NHAI Irrigation Phase 0754
+PRJ0755,Railways,NHAI,396.23,24,2021-04-07,69.9,58.3,53.6,23.4,5.3,Medium,NHAI Railways Phase 0755
+PRJ0756,Railways,NHAI,68.3,24,2022-07-11,91.2,85.9,88.1,18.8,1.7,Medium,NHAI Railways Phase 0756
+PRJ0757,Urban Infrastructure,NHAI,18.48,48,2019-03-06,88.1,76.2,58.9,16.4,10.9,Medium,NHAI Urban Infrastructure Phase 0757
+PRJ0758,Power,Indian Railways,22.61,36,2019-08-26,104.8,98.2,76.6,16.1,13.0,Medium,Indian Railways Power Phase 0758
+PRJ0759,Urban Infrastructure,NTPC,2.76,24,2020-02-21,45.0,30.5,22.0,15.1,3.9,Medium,NTPC Urban Infrastructure Phase 0759
+PRJ0760,Urban Infrastructure,Indian Railways,168.13,24,2023-11-07,62.8,52.7,51.2,12.2,5.6,Medium,Indian Railways Urban Infrastructure Phase 0760
+PRJ0761,Roads & Highways,Indian Railways,10.85,24,2021-01-18,112.1,71.5,62.9,18.8,10.4,High,Indian Railways Roads & Highways Phase 0761
+PRJ0762,Power,NTPC,1256.21,60,2021-05-17,92.8,86.4,68.8,37.1,17.2,High,NTPC Power Phase 0762
+PRJ0763,Power,Municipal Corporation,10.67,24,2020-08-07,116.0,104.8,90.9,12.6,7.2,Medium,Municipal Corporation Power Phase 0763
+PRJ0764,Roads & Highways,Municipal Corporation,43.33,24,2023-05-05,75.4,61.5,44.1,12.9,7.9,Medium,Municipal Corporation Roads & Highways Phase 0764
+PRJ0765,Power,State PWD,381.35,36,2019-11-18,38.8,37.8,29.9,19.5,5.4,Medium,State PWD Power Phase 0765
+PRJ0766,Urban Infrastructure,State PWD,94.4,18,2023-10-26,34.1,26.5,19.6,25.3,4.6,Medium,State PWD Urban Infrastructure Phase 0766
+PRJ0767,Roads & Highways,NHAI,108.86,18,2019-11-05,38.7,33.9,33.1,17.1,3.0,Medium,NHAI Roads & Highways Phase 0767
+PRJ0768,Urban Infrastructure,State PWD,23.29,18,2023-11-03,128.8,83.9,59.5,32.2,13.6,High,State PWD Urban Infrastructure Phase 0768
+PRJ0769,Power,Indian Railways,44.13,18,2019-02-04,33.9,32.8,27.0,17.0,2.5,Medium,Indian Railways Power Phase 0769
+PRJ0770,Irrigation,CPWD,51.55,18,2020-01-15,105.7,72.7,62.1,31.3,9.3,High,CPWD Irrigation Phase 0770
+PRJ0771,Power,State PWD,95.21,36,2020-02-16,60.1,43.7,32.3,26.0,10.5,Medium,State PWD Power Phase 0771
+PRJ0772,Urban Infrastructure,NHAI,25.85,36,2022-08-16,63.4,46.8,49.0,13.1,5.4,Medium,NHAI Urban Infrastructure Phase 0772
+PRJ0773,Urban Infrastructure,Municipal Corporation,140.79,12,2023-02-19,79.3,67.8,52.7,14.1,5.0,Medium,Municipal Corporation Urban Infrastructure Phase 0773
+PRJ0774,Railways,CPWD,120.06,36,2021-04-01,128.4,102.6,102.0,25.0,14.1,High,CPWD Railways Phase 0774
+PRJ0775,Urban Infrastructure,NTPC,203.48,18,2021-08-01,118.7,88.0,81.4,21.7,6.0,Medium,NTPC Urban Infrastructure Phase 0775
+PRJ0776,Irrigation,CPWD,39.75,36,2020-04-29,119.3,97.0,69.7,32.6,18.2,High,CPWD Irrigation Phase 0776
+PRJ0777,Railways,NTPC,19.72,36,2019-02-26,125.7,82.4,61.4,33.9,24.5,High,NTPC Railways Phase 0777
+PRJ0778,Roads & Highways,NTPC,108.45,18,2020-02-27,82.9,68.0,62.7,15.2,3.4,Medium,NTPC Roads & Highways Phase 0778
+PRJ0779,Roads & Highways,NHAI,26.26,12,2022-07-11,37.6,27.5,22.0,8.7,4.7,Medium,NHAI Roads & Highways Phase 0779
+PRJ0780,Railways,Indian Railways,85.0,24,2020-07-18,45.6,31.3,23.0,30.9,9.3,High,Indian Railways Railways Phase 0780
+PRJ0781,Roads & Highways,CPWD,45.2,24,2023-10-23,88.6,85.2,62.1,21.0,6.0,Medium,CPWD Roads & Highways Phase 0781
+PRJ0782,Roads & Highways,Municipal Corporation,12.54,48,2023-11-14,72.8,45.0,44.2,9.1,14.3,Medium,Municipal Corporation Roads & Highways Phase 0782
+PRJ0783,Railways,Municipal Corporation,137.93,24,2020-07-03,137.1,118.6,100.0,33.8,11.6,High,Municipal Corporation Railways Phase 0783
+PRJ0784,Urban Infrastructure,NTPC,19.75,18,2021-08-11,61.9,52.7,39.1,9.6,5.9,Medium,NTPC Urban Infrastructure Phase 0784
+PRJ0785,Irrigation,NTPC,122.9,36,2023-10-14,71.1,62.0,44.8,21.5,12.3,Medium,NTPC Irrigation Phase 0785
+PRJ0786,Power,Indian Railways,49.0,48,2021-01-17,74.3,45.7,40.8,21.2,18.4,Medium,Indian Railways Power Phase 0786
+PRJ0787,Power,NTPC,15.63,24,2023-01-22,41.3,40.4,39.5,11.7,3.7,Medium,NTPC Power Phase 0787
+PRJ0788,Urban Infrastructure,CPWD,21.19,24,2022-11-10,135.9,88.4,74.9,14.0,12.9,High,CPWD Urban Infrastructure Phase 0788
+PRJ0789,Power,CPWD,12.43,48,2022-12-15,83.5,60.1,55.5,20.9,14.3,Medium,CPWD Power Phase 0789
+PRJ0790,Power,NTPC,23.1,12,2019-06-20,30.7,20.3,14.7,17.3,1.9,Medium,NTPC Power Phase 0790
+PRJ0791,Irrigation,State PWD,4.58,48,2020-12-11,66.9,45.7,38.0,25.0,18.2,High,State PWD Irrigation Phase 0791
+PRJ0792,Irrigation,NTPC,14.92,36,2019-01-06,132.4,85.3,71.8,29.7,23.7,High,NTPC Irrigation Phase 0792
+PRJ0793,Roads & Highways,NHAI,21.44,18,2022-10-01,31.7,26.1,21.8,8.5,6.7,Medium,NHAI Roads & Highways Phase 0793
+PRJ0794,Railways,Municipal Corporation,75.8,36,2023-07-30,118.5,78.8,62.0,28.6,20.1,High,Municipal Corporation Railways Phase 0794
+PRJ0795,Roads & Highways,Indian Railways,74.3,18,2019-07-19,78.7,55.2,56.2,5.3,6.1,Medium,Indian Railways Roads & Highways Phase 0795
+PRJ0796,Irrigation,NTPC,141.86,18,2021-11-29,130.5,119.9,120.0,15.1,6.2,Medium,NTPC Irrigation Phase 0796
+PRJ0797,Railways,NHAI,57.64,36,2019-06-04,50.2,45.3,32.1,24.7,7.9,Medium,NHAI Railways Phase 0797
+PRJ0798,Roads & Highways,Municipal Corporation,261.67,18,2019-07-14,37.7,31.5,27.8,16.0,5.0,Medium,Municipal Corporation Roads & Highways Phase 0798
+PRJ0799,Roads & Highways,NHAI,14.87,18,2019-02-15,109.5,101.2,99.1,12.9,3.6,Medium,NHAI Roads & Highways Phase 0799
+PRJ0800,Irrigation,Indian Railways,76.03,24,2022-11-13,40.3,32.5,32.3,14.6,5.2,Medium,Indian Railways Irrigation Phase 0800
+P801,Roads & Highways,NHAI,850.0,36,2022-01-15,75.0,60.0,45.0,28.07,11.8,Medium,Demo Highway Expansion Test
