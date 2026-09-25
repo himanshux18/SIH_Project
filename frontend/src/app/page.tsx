@@ -4,7 +4,7 @@ import { api, Project, ProjectStats } from '@/lib/api';
 import { StatCard } from '@/components/StatCard';
 import { RiskBadge } from '@/components/RiskBadge';
 import Link from 'next/link';
-import { AlertCircle, ArrowRight, ShieldCheck, TrendingUp, SlidersHorizontal, Award, CheckCircle2, Sparkles } from 'lucide-react';
+import { AlertCircle, ArrowRight, ShieldCheck, TrendingUp, SlidersHorizontal, Award, CheckCircle2 } from 'lucide-react';
 
 export default function HomePage() {
   const [stats, setStats] = useState<ProjectStats | null>(null);
@@ -31,36 +31,6 @@ export default function HomePage() {
 
   return (
     <div className="space-y-6">
-      {/* Team InfraRisk & SIH26103 Project Dossier Banner */}
-      <div className="rounded-xl border border-blue-100 bg-gradient-to-r from-blue-50/90 via-white to-indigo-50/70 p-4 shadow-2xs flex flex-wrap items-center justify-between gap-3">
-        <div className="flex items-center gap-3">
-          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-600 text-white shadow-xs">
-            <Sparkles className="h-4 w-4" />
-          </span>
-          <div>
-            <p className="text-xs font-bold text-slate-900 flex items-center gap-1.5">
-              <span>Smart India Hackathon 2024</span>
-              <span className="text-slate-400">·</span>
-              <span className="text-blue-700">Problem Statement SIH26103</span>
-              <span className="hidden sm:inline-block rounded bg-blue-100/70 px-2 py-0.5 text-[10px] font-semibold text-blue-800">
-                MoSPI / IPMD
-              </span>
-            </p>
-            <p className="text-[11px] text-slate-600 mt-0.5">
-              Engineered by <strong>Team InfraRisk</strong>: Preempting infrastructure cost escalations with predictive foresight.
-            </p>
-          </div>
-        </div>
-
-        <Link
-          href="/about"
-          className="inline-flex items-center gap-1 text-xs font-semibold text-blue-700 hover:text-blue-900 hover:underline transition"
-        >
-          <span>Meet the Team & Solution Dossier</span>
-          <ArrowRight className="h-3.5 w-3.5" />
-        </Link>
-      </div>
-
       {/* Top Welcome & Sector Selector */}
       <div className="flex flex-wrap items-start justify-between gap-4">
         <div>

@@ -16,7 +16,6 @@ import {
   TrendingUp,
   Bot,
   ShieldAlert,
-  Users,
 } from 'lucide-react';
 
 const links = [
@@ -28,7 +27,6 @@ const links = [
   { href: '/comparison', label: 'AI vs Stats', icon: TrendingUp },
   { href: '/chat', label: 'AI Assistant', icon: Bot },
   { href: '/admin', label: 'Admin', icon: ShieldAlert },
-  { href: '/about', label: 'Team', icon: Users },
 ];
 
 export function Navbar() {
