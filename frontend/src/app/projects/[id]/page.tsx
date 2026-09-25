@@ -316,10 +316,19 @@ export default function ProjectDetailPage() {
               <YAxis yAxisId="left" domain={[0, 100]} tick={{ fontSize: 11 }} tickFormatter={v => `${v}%`} />
               <YAxis yAxisId="right" orientation="right" tick={{ fontSize: 11 }} tickFormatter={v => `₹${v}Cr`} />
               <Tooltip
-                formatter={(v: any, name: any) => [
-                  name === 'revised_cost' ? `₹${Number(v).toFixed(1)} Cr` : `${Number(v).toFixed(1)}%`,
-                  name === 'physical_progress_pct' ? 'Physical Progress' : (name === 'fund_utilization_pct' ? 'Fund Utilization' : 'Approved Budget')
-                ]}
+                formatter={(value: any, name: any, item: any) => {
+                  const key = item?.dataKey || name;
+                  if (key === 'revised_cost' || String(name).includes('Budget')) {
+                    return [`₹${Number(value).toFixed(1)} Cr`, 'Approved Budget'];
+                  }
+                  if (key === 'fund_utilization_pct' || String(name).includes('Fund')) {
+                    return [`${Number(value).toFixed(1)}%`, 'Fund Utilization'];
+                  }
+                  if (key === 'physical_progress_pct' || String(name).includes('Physical')) {
+                    return [`${Number(value).toFixed(1)}%`, 'Physical Progress'];
+                  }
+                  return [value, name];
+                }}
               />
               <Legend wrapperStyle={{ fontSize: 12, paddingTop: 10 }} />
               <Line yAxisId="left" type="monotone" dataKey="physical_progress_pct" name="Physical Progress %" stroke="#16a34a" strokeWidth={2.5} dot={{ r: 3 }} />

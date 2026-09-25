@@ -4,7 +4,7 @@ import { api, CSVPreviewResponse } from '@/lib/api';
 import { RiskBadge } from '@/components/RiskBadge';
 import { StatCard } from '@/components/StatCard';
 import { useRole } from '@/context/RoleContext';
-import { Upload, PlusCircle, CheckCircle2, AlertTriangle, FileSpreadsheet, ArrowRight, Loader2, ShieldAlert } from 'lucide-react';
+import { Upload, PlusCircle, CheckCircle2, AlertTriangle, FileSpreadsheet, ArrowRight, Loader2, ShieldAlert, Lock, ShieldCheck } from 'lucide-react';
 import Link from 'next/link';
 
 const SECTORS = ['Roads & Highways', 'Railways', 'Power', 'Urban Infrastructure', 'Irrigation'];
@@ -23,7 +23,7 @@ const defaultForm = {
 };
 
 export default function AdminPage() {
-  const { isAdmin } = useRole();
+  const { isAdmin, setRole } = useRole();
   const [tab, setTab] = useState<'upload' | 'manual'>('upload');
   const [file, setFile] = useState<File | null>(null);
   
@@ -40,6 +40,10 @@ export default function AdminPage() {
   const [submitting, setSubmitting] = useState(false);
 
   const handleAnalyzeCSV = async () => {
+    if (!isAdmin) {
+      setPreviewError('Access Denied: Only Admin users can analyze and stage CSV datasets.');
+      return;
+    }
     if (!file) return;
     setAnalyzing(true);
     setPreviewError(null);
@@ -56,6 +60,10 @@ export default function AdminPage() {
   };
 
   const handleCommit = async () => {
+    if (!isAdmin) {
+      setPreviewError('Access Denied: Only Admin users can commit projects to the live database.');
+      return;
+    }
     if (!previewData || !previewData.projects.length) return;
     setCommitting(true);
     try {
@@ -72,6 +80,10 @@ export default function AdminPage() {
 
   const handleManual = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (!isAdmin) {
+      setSubmitResult({ error: 'Access Denied: Only Admin users can add new projects to the central database.' });
+      return;
+    }
     setSubmitting(true);
     try {
       const payload = {
@@ -143,46 +155,66 @@ export default function AdminPage() {
               CSV file containing project attributes (e.g. sector, implementing_agency, sanctioned_cost_cr, elapsed_time_pct, physical_progress_pct).
             </p>
 
-            <div
-              className={`flex flex-col items-center justify-center rounded-xl border-2 border-dashed p-8 text-center transition ${
-                file ? 'border-blue-400 bg-blue-50/20' : 'border-slate-200 hover:border-slate-300'
-              }`}
-              onDragOver={e => e.preventDefault()}
-              onDrop={e => {
-                e.preventDefault();
-                if (e.dataTransfer.files?.[0]) {
-                  setFile(e.dataTransfer.files[0]);
-                  setPreviewData(null);
-                  setPreviewError(null);
-                  setCommitSuccess(null);
-                }
-              }}
-            >
-              <FileSpreadsheet className={`mb-3 h-10 w-10 ${file ? 'text-blue-600' : 'text-slate-300'}`} />
-              <p className="text-sm font-medium text-slate-700">
-                {file ? file.name : 'Drag and drop your PAIMANA CSV here'}
-              </p>
-              <p className="mt-1 text-xs text-slate-400">
-                Supports standard comma-separated tabular files
-              </p>
+            {!isAdmin ? (
+              <div className="flex flex-col items-center justify-center rounded-xl border-2 border-dashed border-amber-300 bg-amber-50/60 p-10 text-center">
+                <div className="rounded-full bg-amber-100 p-3 mb-3 text-amber-700">
+                  <Lock className="h-6 w-6" />
+                </div>
+                <h3 className="text-base font-bold text-slate-800">CSV Batch Ingestion Restricted</h3>
+                <p className="mt-1 text-xs text-slate-600 max-w-md">
+                  You are currently viewing in <strong>Viewer (Read-Only)</strong> mode. Uploading infrastructure project batches, staging CSV data, and committing records to the central database require <strong>Admin</strong> privileges.
+                </p>
+                <button
+                  type="button"
+                  onClick={() => setRole('Admin')}
+                  className="mt-4 inline-flex items-center gap-2 rounded-lg bg-blue-600 px-4 py-2 text-xs font-bold text-white shadow-sm hover:bg-blue-700 transition"
+                >
+                  <ShieldCheck className="h-4 w-4" />
+                  <span>Switch to Admin Role</span>
+                </button>
+              </div>
+            ) : (
+              <div
+                className={`flex flex-col items-center justify-center rounded-xl border-2 border-dashed p-8 text-center transition ${
+                  file ? 'border-blue-400 bg-blue-50/20' : 'border-slate-200 hover:border-slate-300'
+                }`}
+                onDragOver={e => e.preventDefault()}
+                onDrop={e => {
+                  e.preventDefault();
+                  if (e.dataTransfer.files?.[0]) {
+                    setFile(e.dataTransfer.files[0]);
+                    setPreviewData(null);
+                    setPreviewError(null);
+                    setCommitSuccess(null);
+                  }
+                }}
+              >
+                <FileSpreadsheet className={`mb-3 h-10 w-10 ${file ? 'text-blue-600' : 'text-slate-300'}`} />
+                <p className="text-sm font-medium text-slate-700">
+                  {file ? file.name : 'Drag and drop your PAIMANA CSV here'}
+                </p>
+                <p className="mt-1 text-xs text-slate-400">
+                  Supports standard comma-separated tabular files
+                </p>
 
-              <label className="mt-3 inline-flex items-center gap-1.5 cursor-pointer rounded-lg bg-slate-100 px-3.5 py-1.5 text-xs font-semibold text-slate-700 hover:bg-slate-200 transition">
-                Browse Files
-                <input
-                  type="file"
-                  accept=".csv"
-                  className="hidden"
-                  onChange={e => {
-                    if (e.target.files?.[0]) {
-                      setFile(e.target.files[0]);
-                      setPreviewData(null);
-                      setPreviewError(null);
-                      setCommitSuccess(null);
-                    }
-                  }}
-                />
-              </label>
-            </div>
+                <label className="mt-3 inline-flex items-center gap-1.5 cursor-pointer rounded-lg bg-slate-100 px-3.5 py-1.5 text-xs font-semibold text-slate-700 hover:bg-slate-200 transition">
+                  Browse Files
+                  <input
+                    type="file"
+                    accept=".csv"
+                    className="hidden"
+                    onChange={e => {
+                      if (e.target.files?.[0]) {
+                        setFile(e.target.files[0]);
+                        setPreviewData(null);
+                        setPreviewError(null);
+                        setCommitSuccess(null);
+                      }
+                    }}
+                  />
+                </label>
+              </div>
+            )}
 
             {/* Action Bar */}
             {file && (
@@ -333,117 +365,143 @@ export default function AdminPage() {
 
       {tab === 'manual' && (
         <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-          <h2 className="mb-4 font-semibold text-slate-800">Add Project Manually</h2>
-          <form onSubmit={handleManual} className="grid grid-cols-1 gap-4 md:grid-cols-2">
-            <div className="md:col-span-2">
-              <label className={labelCls}>Project Name</label>
-              <input
-                required
-                className={inputCls}
-                value={form.project_name}
-                placeholder="e.g. NH-66 Four-Laning Package 4"
-                onChange={e => setForm(f => ({ ...f, project_name: e.target.value }))}
-              />
-            </div>
-            <div>
-              <label className={labelCls}>Sector</label>
-              <select className={inputCls} value={form.sector} onChange={e => setForm(f => ({ ...f, sector: e.target.value }))}>
-                {SECTORS.map(s => <option key={s}>{s}</option>)}
-              </select>
-            </div>
-            <div>
-              <label className={labelCls}>Implementing Agency</label>
-              <select className={inputCls} value={form.implementing_agency} onChange={e => setForm(f => ({ ...f, implementing_agency: e.target.value }))}>
-                {AGENCIES.map(a => <option key={a}>{a}</option>)}
-              </select>
-            </div>
-            <div>
-              <label className={labelCls}>Sanctioned Cost (₹ Cr)</label>
-              <input
-                required
-                type="number"
-                min="1"
-                step="0.01"
-                placeholder="e.g. 450.0"
-                className={inputCls}
-                value={form.sanctioned_cost_cr}
-                onChange={e => setForm(f => ({ ...f, sanctioned_cost_cr: e.target.value }))}
-              />
-            </div>
-            <div>
-              <label className={labelCls}>Sanctioned Duration (months)</label>
-              <input
-                required
-                type="number"
-                min="1"
-                placeholder="e.g. 36"
-                className={inputCls}
-                value={form.sanctioned_duration_months}
-                onChange={e => setForm(f => ({ ...f, sanctioned_duration_months: e.target.value }))}
-              />
-            </div>
-            <div>
-              <label className={labelCls}>Start Date</label>
-              <input
-                required
-                type="date"
-                className={inputCls}
-                value={form.start_date}
-                onChange={e => setForm(f => ({ ...f, start_date: e.target.value }))}
-              />
-            </div>
-            <div>
-              <label className={labelCls}>Elapsed Time %</label>
-              <input
-                required
-                type="number"
-                min="0"
-                max="150"
-                step="0.1"
-                placeholder="e.g. 75.0"
-                className={inputCls}
-                value={form.elapsed_time_pct}
-                onChange={e => setForm(f => ({ ...f, elapsed_time_pct: e.target.value }))}
-              />
-            </div>
-            <div>
-              <label className={labelCls}>Fund Utilization %</label>
-              <input
-                required
-                type="number"
-                min="0"
-                max="150"
-                step="0.1"
-                placeholder="e.g. 70.0"
-                className={inputCls}
-                value={form.fund_utilization_pct}
-                onChange={e => setForm(f => ({ ...f, fund_utilization_pct: e.target.value }))}
-              />
-            </div>
-            <div>
-              <label className={labelCls}>Physical Progress %</label>
-              <input
-                required
-                type="number"
-                min="0"
-                max="100"
-                step="0.1"
-                placeholder="e.g. 48.0"
-                className={inputCls}
-                value={form.physical_progress_pct}
-                onChange={e => setForm(f => ({ ...f, physical_progress_pct: e.target.value }))}
-              />
-            </div>
-            <div className="md:col-span-2 mt-2">
+          <div className="mb-4">
+            <h2 className="font-semibold text-slate-800">Add Project Manually</h2>
+            <p className="text-xs text-slate-500">
+              Input single project parameters for real-time risk classification and cost overrun forecast.
+            </p>
+          </div>
+
+          {!isAdmin ? (
+            <div className="flex flex-col items-center justify-center rounded-xl border-2 border-dashed border-amber-200 bg-amber-50/40 p-8 text-center">
+              <div className="rounded-full bg-amber-100 p-3 mb-3 text-amber-700">
+                <Lock className="h-6 w-6" />
+              </div>
+              <h3 className="text-base font-bold text-slate-800">Manual Project Entry Restricted</h3>
+              <p className="mt-1 text-xs text-slate-600 max-w-md">
+                You are currently in <strong>Viewer (Read-Only)</strong> mode. Adding new infrastructure projects directly into the live tracking database requires <strong>Admin</strong> privileges.
+              </p>
               <button
-                type="submit"
-                disabled={submitting}
-                className="rounded-lg bg-blue-600 px-6 py-2.5 text-sm font-bold text-white shadow hover:bg-blue-700 disabled:opacity-50 transition"
+                type="button"
+                onClick={() => setRole('Admin')}
+                className="mt-4 inline-flex items-center gap-2 rounded-lg bg-blue-600 px-4 py-2 text-xs font-bold text-white shadow-sm hover:bg-blue-700 transition"
               >
-                {submitting ? 'Adding & Predicting...' : 'Add Project & Get AI Prediction'}
+                <ShieldCheck className="h-4 w-4" />
+                <span>Switch to Admin Role</span>
               </button>
             </div>
-          </form>
+          ) : (
+            <form onSubmit={handleManual} className="grid grid-cols-1 gap-4 md:grid-cols-2">
+              <div className="md:col-span-2">
+                <label className={labelCls}>Project Name</label>
+                <input
+                  required
+                  className={inputCls}
+                  value={form.project_name}
+                  placeholder="e.g. NH-66 Four-Laning Package 4"
+                  onChange={e => setForm(f => ({ ...f, project_name: e.target.value }))}
+                />
+              </div>
+              <div>
+                <label className={labelCls}>Sector</label>
+                <select className={inputCls} value={form.sector} onChange={e => setForm(f => ({ ...f, sector: e.target.value }))}>
+                  {SECTORS.map(s => <option key={s}>{s}</option>)}
+                </select>
+              </div>
+              <div>
+                <label className={labelCls}>Implementing Agency</label>
+                <select className={inputCls} value={form.implementing_agency} onChange={e => setForm(f => ({ ...f, implementing_agency: e.target.value }))}>
+                  {AGENCIES.map(a => <option key={a}>{a}</option>)}
+                </select>
+              </div>
+              <div>
+                <label className={labelCls}>Sanctioned Cost (₹ Cr)</label>
+                <input
+                  required
+                  type="number"
+                  min="1"
+                  step="0.01"
+                  placeholder="e.g. 450.0"
+                  className={inputCls}
+                  value={form.sanctioned_cost_cr}
+                  onChange={e => setForm(f => ({ ...f, sanctioned_cost_cr: e.target.value }))}
+                />
+              </div>
+              <div>
+                <label className={labelCls}>Sanctioned Duration (months)</label>
+                <input
+                  required
+                  type="number"
+                  min="1"
+                  placeholder="e.g. 36"
+                  className={inputCls}
+                  value={form.sanctioned_duration_months}
+                  onChange={e => setForm(f => ({ ...f, sanctioned_duration_months: e.target.value }))}
+                />
+              </div>
+              <div>
+                <label className={labelCls}>Start Date</label>
+                <input
+                  required
+                  type="date"
+                  className={inputCls}
+                  value={form.start_date}
+                  onChange={e => setForm(f => ({ ...f, start_date: e.target.value }))}
+                />
+              </div>
+              <div>
+                <label className={labelCls}>Elapsed Time %</label>
+                <input
+                  required
+                  type="number"
+                  min="0"
+                  max="150"
+                  step="0.1"
+                  placeholder="e.g. 75.0"
+                  className={inputCls}
+                  value={form.elapsed_time_pct}
+                  onChange={e => setForm(f => ({ ...f, elapsed_time_pct: e.target.value }))}
+                />
+              </div>
+              <div>
+                <label className={labelCls}>Fund Utilization %</label>
+                <input
+                  required
+                  type="number"
+                  min="0"
+                  max="150"
+                  step="0.1"
+                  placeholder="e.g. 70.0"
+                  className={inputCls}
+                  value={form.fund_utilization_pct}
+                  onChange={e => setForm(f => ({ ...f, fund_utilization_pct: e.target.value }))}
+                />
+              </div>
+              <div>
+                <label className={labelCls}>Physical Progress %</label>
+                <input
+                  required
+                  type="number"
+                  min="0"
+                  max="100"
+                  step="0.1"
+                  placeholder="e.g. 48.0"
+                  className={inputCls}
+                  value={form.physical_progress_pct}
+                  onChange={e => setForm(f => ({ ...f, physical_progress_pct: e.target.value }))}
+                />
+              </div>
+              <div className="md:col-span-2 mt-2">
+                <button
+                  type="submit"
+                  disabled={submitting}
+                  className="rounded-lg bg-blue-600 px-6 py-2.5 text-sm font-bold text-white shadow hover:bg-blue-700 disabled:opacity-50 transition"
+                >
+                  {submitting ? 'Adding & Predicting...' : 'Add Project & Get AI Prediction'}
+                </button>
+              </div>
+            </form>
+          )}
 
           {submitResult && (
             <div className={`mt-5 rounded-xl border p-4 ${
