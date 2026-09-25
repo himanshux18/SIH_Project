@@ -45,7 +45,7 @@ def train_all():
     )
     
     # --- Risk Classifier ---
-    clf = GradientBoostingClassifier(n_estimators=100, max_depth=4, random_state=42)
+    clf = GradientBoostingClassifier(n_estimators=140, max_depth=4, learning_rate=0.07, random_state=42)
     clf.fit(X_train, y_risk_train)
     clf_preds = clf.predict(X_test)
     clf_acc = accuracy_score(y_risk_test, clf_preds)
@@ -54,7 +54,7 @@ def train_all():
     joblib.dump(clf, MODELS_DIR / 'risk_classifier.joblib')
     
     # --- Overrun Regressor (AI) ---
-    reg = GradientBoostingRegressor(n_estimators=100, max_depth=4, random_state=42)
+    reg = GradientBoostingRegressor(n_estimators=180, max_depth=5, learning_rate=0.06, subsample=0.85, random_state=42)
     reg.fit(X_train, y_overrun_train)
     reg_preds = reg.predict(X_test)
     reg_mae = mean_absolute_error(y_overrun_test, reg_preds)
@@ -76,7 +76,7 @@ def train_all():
     print(f"Moving Average MAE: {ma_mae:.3f}")
     
     # --- Delay Regressor ---
-    delay_reg = GradientBoostingRegressor(n_estimators=100, max_depth=4, random_state=42)
+    delay_reg = GradientBoostingRegressor(n_estimators=140, max_depth=4, learning_rate=0.07, random_state=42)
     delay_reg.fit(X_train, df.loc[X_train.index, 'delay_months'])
     joblib.dump(delay_reg, MODELS_DIR / 'delay_regressor.joblib')
     

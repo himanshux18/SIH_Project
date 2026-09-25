@@ -45,21 +45,41 @@ for i in range(N):
     fund_utilization_pct = np.clip(elapsed_pct * np.random.uniform(0.6, 1.0), 0, 1.3)
     physical_progress_pct = np.clip(fund_utilization_pct * np.random.uniform(0.7, 1.05), 0, 1.2)
 
-    # --- Rule-based risk construction (this is what makes it "learnable") ---
-    size_factor = min(sanctioned_cost_cr / 500, 1.5)  # bigger projects -> more risk
-    lag_factor = max(elapsed_pct - physical_progress_pct, 0)  # progress lagging behind time elapsed
-    base_overrun = sector_overrun_bias[sector]
+    # --- Non-linear PAIMANA Infrastructure Dynamics ---
+    # Real-world infrastructure projects experience compounding cost overruns when progress lags:
+    # 1. Normal execution (lag <= 12%): mild overrun (~3-8%)
+    # 2. Critical threshold (12% < lag <= 25%): contractor idle plant claims & price escalation kicks in
+    # 3. Crisis packages (lag > 25%): re-tendering, legal arbitration, interest during construction (IDC)
+    progress_lag = max(elapsed_pct * 100.0 - physical_progress_pct * 100.0, 0.0)
+    fund_gap = max(fund_utilization_pct * 100.0 - physical_progress_pct * 100.0, 0.0)
+    base_overrun = sector_overrun_bias[sector] * 100.0
 
-    cost_overrun_pct = base_overrun + 0.10 * size_factor + 0.25 * lag_factor + np.random.normal(0, 0.05)
-    cost_overrun_pct = round(max(cost_overrun_pct, -0.05), 3)  # allow rare underruns
+    if progress_lag <= 12.0:
+        cost_overrun = base_overrun + 0.18 * progress_lag + np.random.normal(0, 1.0)
+    elif progress_lag <= 25.0:
+        cost_overrun = (
+            base_overrun + 2.5 + 0.35 * progress_lag +
+            0.008 * (progress_lag ** 2.0) +
+            0.02 * np.log1p(sanctioned_cost_cr) * progress_lag +
+            np.random.normal(0, 1.4)
+        )
+    else:  # Severe crisis packages with compounding IDC and re-tendering
+        cost_overrun = (
+            base_overrun + 7.0 + 0.55 * progress_lag +
+            0.015 * (progress_lag ** 2.1) +
+            0.04 * np.log1p(sanctioned_cost_cr) * progress_lag +
+            0.20 * fund_gap +
+            np.random.normal(0, 2.0)
+        )
 
-    delay_months = (base_overrun * sanctioned_duration_months * 0.7) + (lag_factor * sanctioned_duration_months * 0.8) \
-                   + np.random.normal(0, 1.5)
-    delay_months = round(max(delay_months, 0), 1)
+    cost_overrun_pct = round(max(cost_overrun, 0.8), 1)
 
-    # Risk label from combined signal (used as your ML target / for validation)
-    risk_score = 0.5 * cost_overrun_pct + 0.5 * (delay_months / sanctioned_duration_months)
-    risk_label = "High" if risk_score > 0.30 else ("Medium" if risk_score > 0.12 else "Low")
+    delay_months = (progress_lag / 100.0) * sanctioned_duration_months * 1.15 + (0.018 * (progress_lag ** 1.35)) + np.random.normal(0, 0.9)
+    delay_months = round(max(delay_months, 0.0), 1)
+
+    # Risk label from combined signal
+    risk_score = 0.52 * (cost_overrun_pct / 32.0) + 0.48 * (delay_months / sanctioned_duration_months)
+    risk_label = "High" if risk_score > 0.50 else ("Medium" if risk_score > 0.22 else "Low")
 
     rows.append({
         "project_id": f"PRJ{i+1:04d}",
